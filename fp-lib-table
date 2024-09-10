@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "QSH-030-01-L-D-A-K")(type "KiCad")(uri "${KIPRJMOD}/symbols - footprints/QSH-030-01-L-D-A-K")(options "")(descr ""))
+)

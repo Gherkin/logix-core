@@ -1,0 +1,160 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b00a5c14-77e9-4757-b912-32bbf856c561")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 65.405 126.365)
+		(size 31.75 42.545)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0be3540d-0ef7-4890-b983-c7f7caf1a192")
+		(property "Sheetname" "FPGA pg.4"
+			(at 65.405 125.6534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-pg4.kicad_sch"
+			(at 65.405 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 64.77)
+		(size 33.655 40.005)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d33460e-8460-4615-81a1-821cfc5afbfb")
+		(property "Sheetname" "FPGA pg.1"
+			(at 66.04 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-pg1.kicad_sch"
+			(at 66.04 105.3596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 64.77)
+		(size 33.655 40.005)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9208eeea-aa23-4f0a-a0f4-52abaf751fbe")
+		(property "Sheetname" "FPGA pg.3"
+			(at 176.53 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-pg3.kicad_sch"
+			(at 176.53 105.3596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 64.77)
+		(size 34.925 40.005)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef0e681f-7e48-49e7-97b6-3e59888d2858")
+		(property "Sheetname" "FPGA pg.2"
+			(at 125.73 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-pg2.kicad_sch"
+			(at 125.73 105.3596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9"
+					(page "4")
+				)
+			)
+		)
+	)
+)
