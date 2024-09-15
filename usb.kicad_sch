@@ -4639,7 +4639,7 @@
 			(uuid "50ebabf5-8b0c-436b-8619-977e96a3bf9a")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/6f9af42b-b5bf-4528-a2ad-ab9fc15669e2"
 					(reference "USB1")
 					(unit 1)
@@ -4927,7 +4927,7 @@
 			(uuid "ad12f7d7-7512-4698-9981-5ff29e09848f")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/6f9af42b-b5bf-4528-a2ad-ab9fc15669e2"
 					(reference "D1")
 					(unit 1)
@@ -4997,7 +4997,7 @@
 			(uuid "becb2e37-efdd-4426-ad60-f9a09ae86de2")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/6f9af42b-b5bf-4528-a2ad-ab9fc15669e2"
 					(reference "C24")
 					(unit 1)
@@ -5275,7 +5275,7 @@
 			(uuid "cb1c6ff3-b151-49d9-b7fc-9b9b2b0457cf")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/6f9af42b-b5bf-4528-a2ad-ab9fc15669e2"
 					(reference "#PWR028")
 					(unit 1)
@@ -5409,7 +5409,7 @@
 			(uuid "df54a23e-d22d-4be8-8982-d03e6ea40159")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/6f9af42b-b5bf-4528-a2ad-ab9fc15669e2"
 					(reference "#PWR027")
 					(unit 1)
@@ -5479,7 +5479,7 @@
 			(uuid "440e69c2-d5a9-46a8-99a4-8bca6df64b5e")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/6f9af42b-b5bf-4528-a2ad-ab9fc15669e2"
 					(reference "C23")
 					(unit 1)
@@ -5614,7 +5614,7 @@
 			(uuid "a6335908-9546-4cae-8faf-3858476f447d")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/6f9af42b-b5bf-4528-a2ad-ab9fc15669e2"
 					(reference "TP1")
 					(unit 1)
@@ -6084,7 +6084,7 @@
 			(uuid "48981155-b367-473e-ba3d-78644668a5cc")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/6f9af42b-b5bf-4528-a2ad-ab9fc15669e2"
 					(reference "U4")
 					(unit 1)
@@ -6437,7 +6437,7 @@
 			(uuid "621495bc-4830-4900-8395-1f3161882a2f")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/6f9af42b-b5bf-4528-a2ad-ab9fc15669e2"
 					(reference "TP5")
 					(unit 1)

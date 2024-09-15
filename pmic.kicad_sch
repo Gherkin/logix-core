@@ -2124,7 +2124,7 @@
 			(uuid "6c4a212e-7ffe-41d8-afbc-ca8513b87a89")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/49a162d5-d835-40ab-a6ca-50e636ae9e29"
 					(reference "R1")
 					(unit 1)
@@ -2330,7 +2330,7 @@
 			(uuid "2f98a11a-d4a4-460b-9f94-4204ce8f7dff")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/49a162d5-d835-40ab-a6ca-50e636ae9e29"
 					(reference "C16")
 					(unit 1)
@@ -2398,7 +2398,7 @@
 			(uuid "ad1e8f38-5d3c-4ba6-9f14-555763086b62")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/49a162d5-d835-40ab-a6ca-50e636ae9e29"
 					(reference "L1")
 					(unit 1)
@@ -2796,7 +2796,7 @@
 			(uuid "78470144-4fea-4093-b9c6-1a56cb89ee96")
 		)
 		(instances
-			(project ""
+			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/49a162d5-d835-40ab-a6ca-50e636ae9e29"
 					(reference "#PWR018")
 					(unit 1)
