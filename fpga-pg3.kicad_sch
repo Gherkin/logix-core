@@ -4733,6 +4733,199 @@
 			)
 		)
 	)
+	(bus_entry
+		(at 273.05 129.54)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d53dd1-bc0d-40a7-b654-4909d9997ce4")
+	)
+	(bus_entry
+		(at 273.05 124.46)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354b61ae-b835-4273-8279-8e18461a034a")
+	)
+	(bus_entry
+		(at 273.05 127)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a51352-f011-49b4-80f6-094acc98d029")
+	)
+	(bus_entry
+		(at 273.05 132.08)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b414aee-809f-4491-9f91-da9cb44773b4")
+	)
+	(bus
+		(pts
+			(xy 273.05 129.54) (xy 273.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038af145-ec5f-4d9b-b9cd-a93f0bfbfba1")
+	)
+	(bus
+		(pts
+			(xy 273.05 132.08) (xy 273.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127580e7-c0ac-42e5-8e0b-a2aab4a08e25")
+	)
+	(bus
+		(pts
+			(xy 273.05 127) (xy 273.05 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15685c9c-afa6-4498-b772-4fd802bd3cd7")
+	)
+	(bus
+		(pts
+			(xy 273.05 121.92) (xy 299.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25419fbf-74c6-472b-bcdd-344a4860308d")
+	)
+	(wire
+		(pts
+			(xy 252.73 134.62) (xy 270.51 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ec675e-b211-41ba-9656-ffed713fcddb")
+	)
+	(wire
+		(pts
+			(xy 252.73 129.54) (xy 270.51 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbaa0a97-208b-450b-b6a8-e5fcf267716f")
+	)
+	(wire
+		(pts
+			(xy 252.73 132.08) (xy 270.51 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc56f12a-901c-4819-aa34-df16396bd901")
+	)
+	(bus
+		(pts
+			(xy 273.05 124.46) (xy 273.05 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50c2b2b-930d-4204-95ab-17cc477bd73b")
+	)
+	(wire
+		(pts
+			(xy 252.73 127) (xy 270.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7343679-a75e-4969-9bf3-e6d9c2f180b0")
+	)
+	(label "JTAG{TDI TDO TMS TCK}"
+		(at 273.05 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fd519f7-83e0-44cb-b3d8-20b13b818ace")
+	)
+	(label "JTAG.TCK"
+		(at 252.73 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bd9195c-3920-4ba0-b6b0-c1c6da6d6913")
+	)
+	(label "JTAG.TMS"
+		(at 252.73 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f1f8b83-ff41-4e5f-a6d1-6f406490303d")
+	)
+	(label "JTAG.TDI"
+		(at 252.73 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a771a427-39c3-4f71-960f-2d8e5a2735f5")
+	)
+	(label "JTAG.TDO"
+		(at 252.73 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f538f2d4-df6c-4365-9e89-5ca7a2b1387d")
+	)
+	(hierarchical_label "JTAG"
+		(shape bidirectional)
+		(at 299.72 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "289f8b52-cf4a-452d-b6f5-833bd7afbbf4")
+	)
 	(symbol
 		(lib_id "FPGA_Xilinx_Artix7:XC7A15T-FTG256")
 		(at 214.63 147.32 0)

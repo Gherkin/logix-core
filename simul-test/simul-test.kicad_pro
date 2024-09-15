@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -56,11 +56,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 8.0,
-          "via_gap": 0.0,
-          "width": 4.79
         }
       ],
       "drc_exclusions": [],
@@ -183,7 +178,7 @@
       ],
       "track_widths": [
         0.0,
-        0.1
+        0.35
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -215,10 +210,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.25,
-          "drill": 0.15
         }
       ],
       "zones_allow_external_fillets": false
@@ -453,14 +444,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "logix-core.kicad_pro",
+    "filename": "simul-test.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -470,7 +461,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -597,44 +588,8 @@
   },
   "sheets": [
     [
-      "cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23",
+      "9e82958d-12a7-41d0-8cd7-e07a198ea390",
       "Root"
-    ],
-    [
-      "824409ff-e0aa-4944-ad80-228eadb659f9",
-      "FPGA"
-    ],
-    [
-      "6d33460e-8460-4615-81a1-821cfc5afbfb",
-      "FPGA pg.1"
-    ],
-    [
-      "ef0e681f-7e48-49e7-97b6-3e59888d2858",
-      "FPGA pg.2"
-    ],
-    [
-      "9208eeea-aa23-4f0a-a0f4-52abaf751fbe",
-      "FPGA pg.3"
-    ],
-    [
-      "0be3540d-0ef7-4890-b983-c7f7caf1a192",
-      "FPGA pg.4"
-    ],
-    [
-      "1f742822-aa07-4329-86b7-d73aec981ffe",
-      "Frontend Connector"
-    ],
-    [
-      "8022af0a-9fc0-46cd-b8ad-ba9d73562043",
-      "Backend Connector"
-    ],
-    [
-      "706c144e-3e18-4d7e-a371-269bdc22abf6",
-      "JTAG"
-    ],
-    [
-      "49a162d5-d835-40ab-a6ca-50e636ae9e29",
-      "PMIC"
     ]
   ],
   "text_variables": {}

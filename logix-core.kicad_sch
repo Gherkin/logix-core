@@ -6,6 +6,158 @@
 	(paper "A3")
 	(lib_symbols)
 	(sheet
+		(at 322.58 146.05)
+		(size 36.83 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f742822-aa07-4329-86b7-d73aec981ffe")
+		(property "Sheetname" "Frontend Connector"
+			(at 322.58 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "frontend_conn.kicad_sch"
+			(at 322.58 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 133.35)
+		(size 29.21 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49a162d5-d835-40ab-a6ca-50e636ae9e29")
+		(property "Sheetname" "PMIC"
+			(at 123.19 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmic.kicad_sch"
+			(at 123.19 166.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 92.71)
+		(size 34.29 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "706c144e-3e18-4d7e-a371-269bdc22abf6")
+		(property "Sheetname" "JTAG"
+			(at 200.66 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag.kicad_sch"
+			(at 200.66 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 260.35 107.95)
+		(size 30.48 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8022af0a-9fc0-46cd-b8ad-ba9d73562043")
+		(property "Sheetname" "Backend Connector"
+			(at 260.35 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backend_conn.kicad_sch"
+			(at 260.35 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 184.15 188.595)
 		(size 56.515 64.77)
 		(fields_autoplaced yes)
