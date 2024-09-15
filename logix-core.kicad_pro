@@ -84,6 +84,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -499,6 +500,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -635,6 +637,14 @@
     [
       "49a162d5-d835-40ab-a6ca-50e636ae9e29",
       "PMIC"
+    ],
+    [
+      "6f9af42b-b5bf-4528-a2ad-ab9fc15669e2",
+      "USB"
+    ],
+    [
+      "b85739df-cd60-41d1-92dc-c1028520afa1",
+      "SPI Flash"
     ]
   ],
   "text_variables": {}

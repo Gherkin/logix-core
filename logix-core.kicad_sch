@@ -82,6 +82,44 @@
 		)
 	)
 	(sheet
+		(at 95.25 59.69)
+		(size 31.75 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f9af42b-b5bf-4528-a2ad-ab9fc15669e2")
+		(property "Sheetname" "USB"
+			(at 95.25 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 95.25 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 200.66 92.71)
 		(size 34.29 39.37)
 		(fields_autoplaced yes)
@@ -191,6 +229,44 @@
 			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 182.88)
+		(size 34.29 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b85739df-cd60-41d1-92dc-c1028520afa1")
+		(property "Sheetname" "SPI Flash"
+			(at 54.61 182.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "spi_flash.kicad_sch"
+			(at 54.61 225.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "12")
 				)
 			)
 		)

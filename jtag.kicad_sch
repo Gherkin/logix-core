@@ -1725,7 +1725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_87832-1420_MOL"
+		(property "Footprint" "878321420:CONN_87832-1420_MOL"
 			(at 144.78 77.47 0)
 			(effects
 				(font
