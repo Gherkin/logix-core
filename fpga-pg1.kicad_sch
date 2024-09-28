@@ -6170,6 +6170,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 87.63) (xy 300.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce3cca3-e614-45bc-9163-6bd646f6fa9a")
+	)
+	(wire
+		(pts
 			(xy 100.33 87.63) (xy 130.81 87.63)
 		)
 		(stroke
@@ -6217,6 +6227,16 @@
 			(type default)
 		)
 		(uuid "3e774115-d2df-456e-adb0-cffaa5e4dbe6")
+	)
+	(wire
+		(pts
+			(xy 270.51 95.25) (xy 300.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7e871a-36e6-4703-ad46-cf0131ab9946")
 	)
 	(wire
 		(pts
@@ -6290,6 +6310,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 90.17) (xy 300.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25848e2-2a95-4768-9b95-c6cb08045c8e")
+	)
+	(wire
+		(pts
 			(xy 138.43 87.63) (xy 168.91 87.63)
 		)
 		(stroke
@@ -6297,6 +6327,16 @@
 			(type default)
 		)
 		(uuid "df7b88bb-2e8d-4980-8baf-b0ebe194be1c")
+	)
+	(wire
+		(pts
+			(xy 270.51 92.71) (xy 300.99 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e88fda1a-3322-4c87-9cae-7c3640edfb7c")
 	)
 	(wire
 		(pts
@@ -6373,6 +6413,28 @@
 		)
 		(uuid "5b65993f-8bbe-4045-84d5-0bf941bd5d7d")
 	)
+	(label "DATA_INP1+"
+		(at 275.59 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "620deec7-5050-4ac7-a648-d6a1f06b85e1")
+	)
+	(label "DATA_INP1-"
+		(at 275.59 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71e91d91-9695-4b41-90a3-d97b62116aaf")
+	)
 	(label "INT_FLASH_SPI_D1"
 		(at 143.51 90.17 0)
 		(fields_autoplaced yes)
@@ -6383,6 +6445,17 @@
 			(justify left bottom)
 		)
 		(uuid "75a1b3d4-a082-43be-9cd7-80a52edfb2c5")
+	)
+	(label "DATA_INP1-"
+		(at 275.59 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7974176-16b5-41e6-b356-e137bb86c0b4")
 	)
 	(label "FLASH_SPI.D3"
 		(at 105.41 95.25 0)
@@ -6438,6 +6511,17 @@
 			(justify left bottom)
 		)
 		(uuid "eb22ce86-eb15-4b85-a7ba-d781c418aa8c")
+	)
+	(label "DATA_INP1+"
+		(at 275.59 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1474f9c-2824-4637-b954-9a4357b1e668")
 	)
 	(hierarchical_label "FLASH_SPI"
 		(shape bidirectional)

@@ -6105,7 +6105,7 @@
 		)
 	)
 	(bus_entry
-		(at 273.05 129.54)
+		(at 275.59 69.85)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -6114,7 +6114,7 @@
 		(uuid "27d53dd1-bc0d-40a7-b654-4909d9997ce4")
 	)
 	(bus_entry
-		(at 273.05 124.46)
+		(at 275.59 64.77)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -6123,7 +6123,7 @@
 		(uuid "354b61ae-b835-4273-8279-8e18461a034a")
 	)
 	(bus_entry
-		(at 273.05 127)
+		(at 275.59 67.31)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -6132,7 +6132,7 @@
 		(uuid "49a51352-f011-49b4-80f6-094acc98d029")
 	)
 	(bus_entry
-		(at 273.05 132.08)
+		(at 275.59 72.39)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -6140,9 +6140,19 @@
 		)
 		(uuid "4b414aee-809f-4491-9f91-da9cb44773b4")
 	)
+	(wire
+		(pts
+			(xy 144.78 142.24) (xy 179.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "012c5fd8-502d-4a9e-b5fe-646465b9d7ac")
+	)
 	(bus
 		(pts
-			(xy 273.05 129.54) (xy 273.05 127)
+			(xy 275.59 69.85) (xy 275.59 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6152,7 +6162,7 @@
 	)
 	(bus
 		(pts
-			(xy 273.05 132.08) (xy 273.05 129.54)
+			(xy 275.59 72.39) (xy 275.59 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6162,7 +6172,7 @@
 	)
 	(bus
 		(pts
-			(xy 273.05 127) (xy 273.05 124.46)
+			(xy 275.59 67.31) (xy 275.59 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6170,9 +6180,29 @@
 		)
 		(uuid "15685c9c-afa6-4498-b772-4fd802bd3cd7")
 	)
+	(wire
+		(pts
+			(xy 144.78 165.1) (xy 179.07 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b52191e-c8d0-4df1-b1c0-1c0b809cdfdb")
+	)
+	(wire
+		(pts
+			(xy 144.78 195.58) (xy 179.07 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c0aae4e-5242-4086-aa68-f6ab6ca76204")
+	)
 	(bus
 		(pts
-			(xy 273.05 121.92) (xy 299.72 121.92)
+			(xy 275.59 62.23) (xy 302.26 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6182,7 +6212,37 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 139.7) (xy 252.73 139.7)
+			(xy 144.78 154.94) (xy 179.07 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e293d7e-478e-4bef-82ee-2a282647c0e2")
+	)
+	(wire
+		(pts
+			(xy 144.78 182.88) (xy 179.07 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f86d31b-6b35-407b-ac47-d6914fefecb5")
+	)
+	(wire
+		(pts
+			(xy 144.78 147.32) (xy 179.07 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418c1f22-c8d8-4381-9b7a-c307304db39f")
+	)
+	(wire
+		(pts
+			(xy 285.75 80.01) (xy 255.27 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6192,7 +6252,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 134.62) (xy 270.51 134.62)
+			(xy 255.27 74.93) (xy 273.05 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6202,7 +6262,77 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 139.7) (xy 290.83 139.7)
+			(xy 144.78 190.5) (xy 179.07 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d51e922-64f7-40b9-abd1-e59f3371a917")
+	)
+	(wire
+		(pts
+			(xy 144.78 167.64) (xy 179.07 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7ac2f8-e6c1-4c25-a70d-f7926f02eacd")
+	)
+	(wire
+		(pts
+			(xy 144.78 193.04) (xy 179.07 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9a8975-e417-46c3-b643-8d508e7e0442")
+	)
+	(wire
+		(pts
+			(xy 144.78 149.86) (xy 179.07 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85657cba-9190-4a45-920f-7d37dbe5a97a")
+	)
+	(wire
+		(pts
+			(xy 144.78 152.4) (xy 179.07 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3f1a88-2287-4f45-8db7-da10d87efa86")
+	)
+	(wire
+		(pts
+			(xy 144.78 144.78) (xy 179.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4222e8-c343-4c30-9140-93ead23494bc")
+	)
+	(wire
+		(pts
+			(xy 144.78 172.72) (xy 179.07 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9beeec-584a-447e-bfbd-df2ac16982d3")
+	)
+	(wire
+		(pts
+			(xy 323.85 80.01) (xy 293.37 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6212,7 +6342,27 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 129.54) (xy 270.51 129.54)
+			(xy 144.78 170.18) (xy 179.07 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b582276b-96f4-4804-8d72-576a88702e0f")
+	)
+	(wire
+		(pts
+			(xy 144.78 175.26) (xy 179.07 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b817ff11-8c2a-4127-8439-d4cfb298c4c8")
+	)
+	(wire
+		(pts
+			(xy 255.27 69.85) (xy 273.05 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6222,7 +6372,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 132.08) (xy 270.51 132.08)
+			(xy 255.27 72.39) (xy 273.05 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6230,9 +6380,49 @@
 		)
 		(uuid "bc56f12a-901c-4819-aa34-df16396bd901")
 	)
+	(wire
+		(pts
+			(xy 144.78 157.48) (xy 179.07 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b0b6bc-e249-4f18-affe-8775f5ce5997")
+	)
+	(wire
+		(pts
+			(xy 144.78 180.34) (xy 179.07 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54e9277-10fd-4f9f-97fc-81d89ac4601e")
+	)
+	(wire
+		(pts
+			(xy 144.78 160.02) (xy 179.07 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d858e0f2-4b46-4558-b8e6-4ac4a296871c")
+	)
+	(wire
+		(pts
+			(xy 144.78 187.96) (xy 179.07 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2007a2f-707f-4aba-9cee-c267e85c9f05")
+	)
 	(bus
 		(pts
-			(xy 273.05 124.46) (xy 273.05 121.92)
+			(xy 275.59 64.77) (xy 275.59 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6242,7 +6432,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 127) (xy 270.51 127)
+			(xy 255.27 67.31) (xy 273.05 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6250,8 +6440,29 @@
 		)
 		(uuid "f7343679-a75e-4969-9bf3-e6d9c2f180b0")
 	)
+	(wire
+		(pts
+			(xy 144.78 177.8) (xy 179.07 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa96360b-5d52-427c-b54b-eaacf392c1c2")
+	)
+	(label "GT_REFCLK1+"
+		(at 154.94 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08adfa1f-930a-4ea4-9bd9-c1b9c84df4db")
+	)
 	(label "FLASH_SPI.CLK"
-		(at 316.23 139.7 180)
+		(at 318.77 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6261,8 +6472,19 @@
 		)
 		(uuid "0efd83d2-44a6-4c7c-937b-8aa32a1fbb66")
 	)
+	(label "GTP1_RX-"
+		(at 154.94 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "129bac45-d625-47dc-b8ba-81f34e1edd26")
+	)
 	(label "INT_FLASH_SPI_CLK"
-		(at 278.13 139.7 180)
+		(at 280.67 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6272,8 +6494,19 @@
 		)
 		(uuid "1a867455-644d-47ff-ae7f-4a502d0c715f")
 	)
+	(label "GTP1_TX-"
+		(at 154.94 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a98b60f-2dc2-4197-b333-eb81037425d6")
+	)
 	(label "JTAG{TDI TDO TMS TCK}"
-		(at 273.05 121.92 0)
+		(at 275.59 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6283,8 +6516,85 @@
 		)
 		(uuid "1fd519f7-83e0-44cb-b3d8-20b13b818ace")
 	)
+	(label "GT_REFCLK0+"
+		(at 154.94 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "398f8e7c-9292-40ef-add7-544bfe6a562f")
+	)
+	(label "GTP1_TX+"
+		(at 154.94 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4089a7f5-b34e-4b41-a2ba-46e8908f7122")
+	)
+	(label "GTP3_RX+"
+		(at 154.94 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4157ddce-b60f-4465-9795-0239551d8725")
+	)
+	(label "GTP2_RX-"
+		(at 154.94 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43fb3aef-8326-4e75-966e-6fb953111eaa")
+	)
+	(label "GTP3_TX-"
+		(at 154.94 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4712d650-e6c7-4bfe-9309-3c9750fff8c2")
+	)
+	(label "GTP0_TX+"
+		(at 154.94 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48317f8d-c8b2-465a-9ae1-a0b358a1661e")
+	)
+	(label "GT_REFCLK1+"
+		(at 154.94 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a2318af-b0f3-46fe-a380-96dee9a116e2")
+	)
 	(label "JTAG.TCK"
-		(at 252.73 134.62 0)
+		(at 255.27 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6294,8 +6604,63 @@
 		)
 		(uuid "4bd9195c-3920-4ba0-b6b0-c1c6da6d6913")
 	)
+	(label "GTP0_TX-"
+		(at 154.94 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ef4f29c-7dab-4e25-9535-849b2cb1bce3")
+	)
+	(label "GTP0_RX-"
+		(at 154.94 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "605a44ce-87cc-4dcb-8e29-497596669537")
+	)
+	(label "GTP3_TX+"
+		(at 154.94 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75fe94de-e5a0-4bc1-8673-f69ca38235b1")
+	)
+	(label "GTP2_TX-"
+		(at 154.94 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79190335-180a-486b-88f0-b908a6638588")
+	)
+	(label "GTP1_RX+"
+		(at 154.94 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ed4030a-da6f-4b23-93d0-456420fd9d8c")
+	)
 	(label "JTAG.TMS"
-		(at 252.73 132.08 0)
+		(at 255.27 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6305,8 +6670,19 @@
 		)
 		(uuid "7f1f8b83-ff41-4e5f-a6d1-6f406490303d")
 	)
+	(label "GTP2_RX+"
+		(at 154.94 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98bfff21-23ec-42db-874e-b8937c9d57ce")
+	)
 	(label "JTAG.TDI"
-		(at 252.73 127 0)
+		(at 255.27 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6316,8 +6692,52 @@
 		)
 		(uuid "a771a427-39c3-4f71-960f-2d8e5a2735f5")
 	)
+	(label "GT_REFCLK0-"
+		(at 154.94 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab10c3af-c760-4b85-be9b-970f0e323dc9")
+	)
+	(label "GTP0_RX+"
+		(at 154.94 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8139bac-a0b7-47f0-9890-aac5ca844800")
+	)
+	(label "GTP3_RX-"
+		(at 154.94 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bde1624f-6f18-46e1-8d69-f3a06deda08a")
+	)
+	(label "GTP2_TX+"
+		(at 154.94 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f10e21e0-532e-4a9b-8214-cb6e204e7ef0")
+	)
 	(label "JTAG.TDO"
-		(at 252.73 129.54 0)
+		(at 255.27 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6329,7 +6749,7 @@
 	)
 	(hierarchical_label "JTAG"
 		(shape bidirectional)
-		(at 299.72 121.92 0)
+		(at 302.26 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6341,7 +6761,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 287.02 139.7 270)
+		(at 289.56 80.01 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6350,7 +6770,7 @@
 		(dnp no)
 		(uuid "5d85d682-9790-4f45-acc3-2db310551e53")
 		(property "Reference" "R16"
-			(at 292.354 138.938 90)
+			(at 294.894 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +6778,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 282.448 138.684 90)
+			(at 284.988 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +6786,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 287.02 141.478 90)
+			(at 289.56 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 139.7 0)
+			(at 289.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6804,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 139.7 0)
+			(at 289.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6813,7 @@
 			)
 		)
 		(property "LCSC" "C226391"
-			(at 287.02 139.7 0)
+			(at 289.56 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,7 +6838,7 @@
 	)
 	(symbol
 		(lib_id "FPGA_Xilinx_Artix7:XC7A15T-CSG325")
-		(at 104.14 209.55 0)
+		(at 217.17 170.18 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6427,7 +6847,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e54f159-722f-484c-b038-c531289bf2b0")
 		(property "Reference" "U6"
-			(at 137.16 208.2799 0)
+			(at 250.19 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,7 +6856,7 @@
 			)
 		)
 		(property "Value" "XC7A15T-CSG325"
-			(at 137.16 210.8199 0)
+			(at 250.19 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6865,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:Xilinx_CSG325"
-			(at 104.14 209.55 0)
+			(at 217.17 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 209.55 0)
+			(at 217.17 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6882,7 @@
 			)
 		)
 		(property "Description" "Artix 7 T 15 XC7A15T-CSG325"
-			(at 104.14 209.55 0)
+			(at 217.17 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7453,7 +7873,7 @@
 	)
 	(symbol
 		(lib_id "FPGA_Xilinx_Artix7:XC7A15T-CSG325")
-		(at 214.63 147.32 0)
+		(at 217.17 87.63 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7462,7 +7882,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfb6a35a-3a3b-464d-86ee-1d45a13d8f23")
 		(property "Reference" "U6"
-			(at 181.61 149.2249 0)
+			(at 184.15 89.5349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7891,7 @@
 			)
 		)
 		(property "Value" "XC7A15T-CSG325"
-			(at 181.61 151.7649 0)
+			(at 184.15 92.0749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7900,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:Xilinx_CSG325"
-			(at 214.63 147.32 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,7 +7909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 147.32 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7917,7 @@
 			)
 		)
 		(property "Description" "Artix 7 T 15 XC7A15T-CSG325"
-			(at 214.63 147.32 0)
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
