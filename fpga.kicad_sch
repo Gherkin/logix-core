@@ -4,7 +4,269 @@
 	(generator_version "8.0")
 	(uuid "b00a5c14-77e9-4757-b912-32bbf856c561")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(bus_entry
+		(at 99.06 36.83)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f78c352-500b-41d9-81e3-f4ba38e0c486")
+	)
+	(wire
+		(pts
+			(xy 101.6 39.37) (xy 114.3 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0010513f-b122-40b2-8328-b4b320eeeaf3")
+	)
+	(bus
+		(pts
+			(xy 91.44 76.2) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42bd5a0b-fe7e-48f5-b2bd-8bcd69780bd5")
+	)
+	(bus
+		(pts
+			(xy 99.06 36.83) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f9b5ed-5ef2-4fb4-b64f-e2f48b158135")
+	)
+	(bus
+		(pts
+			(xy 99.06 34.29) (xy 99.06 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea38c7f-d1c8-4a45-947e-890d28941c2c")
+	)
+	(label "DO.D6+"
+		(at 114.3 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ddd5db0-a302-4145-8e56-5b5173605891")
+	)
+	(label "DO{D1+ D1- D2+ D2- D3+ D3- D4+ D4- D5+ D5- D6+ D6- D7+ D7- D8+ D8- D9+ D9- D10+ D10- D11+ D11- D12+ D12- D13+ D13- D14+ D14- D15+ D15- D16+ D16-}"
+		(at 92.71 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8051ee2-7df9-45cb-a878-75c77fd707bb")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21d19511-9c29-47f8-a3df-509a63c70c86")
+		(property "Reference" "R17"
+			(at 116.84 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 116.84 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.522 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a6655b7-b160-4b61-844d-184dd9e208f3")
+		)
+		(pin "1"
+			(uuid "cb686407-a090-4e23-81bb-164eb420299d")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 65.405 126.365)
 		(size 31.75 42.545)
@@ -44,8 +306,8 @@
 		)
 	)
 	(sheet
-		(at 66.04 64.77)
-		(size 33.655 40.005)
+		(at 58.42 62.23)
+		(size 33.02 40.64)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +318,7 @@
 		)
 		(uuid "6d33460e-8460-4615-81a1-821cfc5afbfb")
 		(property "Sheetname" "FPGA pg.1"
-			(at 66.04 64.0584 0)
+			(at 58.42 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,13 +327,33 @@
 			)
 		)
 		(property "Sheetfile" "fpga-pg1.kicad_sch"
-			(at 66.04 105.3596 0)
+			(at 58.42 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "FLASH_SPI" bidirectional
+			(at 91.44 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6448029-3752-4ee0-9ff4-52e916196052")
+		)
+		(pin "DO" output
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "254e53a5-db75-4c4b-99bd-a3e79e101dc8")
 		)
 		(instances
 			(project "logix-core"

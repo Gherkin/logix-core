@@ -5,6 +5,108 @@
 	(uuid "f7fc1df2-e374-4fd9-99f6-65da9868a692")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -6104,6 +6206,225 @@
 			)
 		)
 	)
+	(junction
+		(at 160.02 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bcf873e-239a-49a1-a903-c70a871b4ad7")
+	)
+	(junction
+		(at 160.02 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b30911-8306-4587-bc20-3dcfe79cc85d")
+	)
+	(junction
+		(at 160.02 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3828df47-28e8-4bd0-9cb5-75bdcc79be65")
+	)
+	(junction
+		(at 160.02 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c8fc61e-87c4-48e8-a093-ccc262969ff2")
+	)
+	(junction
+		(at 160.02 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e9b2867-d160-45af-a673-6a990cc391cd")
+	)
+	(junction
+		(at 160.02 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76d33602-5bb3-4edd-aab0-9cde0d32e375")
+	)
+	(junction
+		(at 160.02 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76e9f45c-9c26-4bf8-b208-7c8ea9363a49")
+	)
+	(junction
+		(at 160.02 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79ac2f79-7c09-4232-84cd-220afb15ac61")
+	)
+	(junction
+		(at 160.02 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f0ad737-410e-426a-a2f4-7d632926623b")
+	)
+	(junction
+		(at 160.02 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fd29e7f-c209-44ff-8453-d7def38e3f8b")
+	)
+	(junction
+		(at 160.02 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88ff7c88-f958-4087-a864-475f7dabbdc4")
+	)
+	(junction
+		(at 160.02 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8efff3f6-2080-451d-99fb-28383e6229db")
+	)
+	(junction
+		(at 160.02 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f1e2947-a0b5-49e6-aac8-1a5de4eae356")
+	)
+	(junction
+		(at 160.02 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f098289-7604-4080-86b0-ee106d9e752c")
+	)
+	(junction
+		(at 160.02 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a559bc06-c13a-4fc9-b2aa-528b52730994")
+	)
+	(junction
+		(at 160.02 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5de328e-30f5-464b-a360-45700f634462")
+	)
+	(junction
+		(at 160.02 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a698a44e-8065-48a6-9e27-632175d0fe41")
+	)
+	(junction
+		(at 160.02 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b112b904-90de-4cd6-bb4b-3db6d0cad5c9")
+	)
+	(junction
+		(at 160.02 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1733577-eb57-4abc-af42-b1a2bc0e9bf7")
+	)
+	(junction
+		(at 160.02 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1b80d1c-8ca2-4bc3-85b7-34d508d94012")
+	)
+	(junction
+		(at 160.02 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50dc19c-582b-44ed-802e-3bf3b5fb1059")
+	)
+	(junction
+		(at 160.02 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b63850ac-0cc3-4114-9b2d-bebc7b976a28")
+	)
+	(junction
+		(at 160.02 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6a3c153-02fb-406f-93a0-b9b23bbccfcd")
+	)
+	(junction
+		(at 160.02 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6af666e-ef11-41b7-95d0-c9a0fa9b2b9f")
+	)
+	(junction
+		(at 160.02 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0b43d1f-16d0-4b4b-adfd-e373d968a1c4")
+	)
+	(junction
+		(at 160.02 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce6fca3e-baf3-46d5-bceb-26ce2cf047bd")
+	)
+	(junction
+		(at 160.02 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d49d18dd-816e-4520-a3fb-4a2550712336")
+	)
+	(junction
+		(at 160.02 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df153923-b196-4f7d-a100-5dd482fa7155")
+	)
+	(junction
+		(at 160.02 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e16a8938-8336-480d-81b1-f99a8b44b783")
+	)
+	(junction
+		(at 160.02 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e82bf15f-3a01-4fc6-acaa-5f0363781f9d")
+	)
+	(junction
+		(at 160.02 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fee7f99d-fc32-41d4-b745-a9ffc8231894")
+	)
+	(junction
+		(at 160.02 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff8ededf-639b-4eee-8bab-bd136144d170")
+	)
+	(bus_entry
+		(at 91.44 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0105eeab-1274-49b8-a7c6-ec53ab49d3ec")
+	)
+	(bus_entry
+		(at 91.44 161.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02519197-06fe-4ba6-8e3d-b4889b4ce94b")
+	)
+	(bus_entry
+		(at 91.44 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c06153-27bd-4bdb-acb7-b1cad15d9a18")
+	)
 	(bus_entry
 		(at 97.79 87.63)
 		(size 2.54 2.54)
@@ -6112,6 +6433,105 @@
 			(type default)
 		)
 		(uuid "06a6a92f-8984-4ffa-9c2d-2566edecd464")
+	)
+	(bus_entry
+		(at 91.44 171.45)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e3aa0f-edee-4e85-9a4d-f63a1438ae0b")
+	)
+	(bus_entry
+		(at 91.44 107.95)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fcda7f8-a219-4954-b24a-e1c709316fd2")
+	)
+	(bus_entry
+		(at 91.44 176.53)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2086240f-1150-46e7-a047-a90b91d3a3c3")
+	)
+	(bus_entry
+		(at 91.44 140.97)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bbf9062-8040-4f8d-9486-1fd12a9350b9")
+	)
+	(bus_entry
+		(at 91.44 156.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f73264-dd73-43c3-a1d6-2a3a03fa7727")
+	)
+	(bus_entry
+		(at 91.44 151.13)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4671c590-cd6d-4a39-b001-ad5e5f6e78ac")
+	)
+	(bus_entry
+		(at 91.44 133.35)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b39959f-1d1d-450d-acd1-f09b81090bc0")
+	)
+	(bus_entry
+		(at 91.44 138.43)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52384c00-1974-448b-84cc-fb37ef1d4c31")
+	)
+	(bus_entry
+		(at 91.44 115.57)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e203d88-4e59-4885-8ad0-8159d6c89e4d")
+	)
+	(bus_entry
+		(at 91.44 168.91)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60120e24-3e0c-4230-ad2f-d64d4e1e1b68")
+	)
+	(bus_entry
+		(at 91.44 173.99)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a539eb-9995-4819-8a52-56867f555217")
 	)
 	(bus_entry
 		(at 97.79 90.17)
@@ -6123,6 +6543,78 @@
 		(uuid "752e8e10-7f63-4530-907c-727a8cb4110b")
 	)
 	(bus_entry
+		(at 91.44 166.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3d92b4-946b-4164-89c2-1144e142999a")
+	)
+	(bus_entry
+		(at 91.44 97.79)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80884fbf-ead0-4b83-b097-f0ba28d47267")
+	)
+	(bus_entry
+		(at 91.44 171.45)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ac7086-da59-4c14-bef0-669bce48b0e8")
+	)
+	(bus_entry
+		(at 91.44 118.11)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d80871-e453-4136-b5d1-8db1c8d0756b")
+	)
+	(bus_entry
+		(at 91.44 179.07)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931d86fa-2f3b-482a-8958-91f191732aa5")
+	)
+	(bus_entry
+		(at 91.44 146.05)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a32c6f-cca3-4ae3-b104-042360a3624b")
+	)
+	(bus_entry
+		(at 91.44 102.87)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb284dd-8f23-46e8-9ff2-6bc5570aaf73")
+	)
+	(bus_entry
+		(at 91.44 148.59)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2aab0f2-7460-40c1-9e2f-f2504fbde1fb")
+	)
+	(bus_entry
 		(at 97.79 92.71)
 		(size 2.54 2.54)
 		(stroke
@@ -6132,13 +6624,58 @@
 		(uuid "a48c0b03-7869-4663-ac7a-c77d82b28ef1")
 	)
 	(bus_entry
-		(at 139.7 196.85)
+		(at 91.44 125.73)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac18873f-4b65-4e92-984f-b5a6aa8b5226")
+		(uuid "a6a80c2a-c5ef-496b-aaef-1594270b2273")
+	)
+	(bus_entry
+		(at 91.44 163.83)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab71b347-fd28-4976-9c9a-54b70b17b5b0")
+	)
+	(bus_entry
+		(at 91.44 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acce6f58-ae51-4e0b-8eb5-817f957de6b4")
+	)
+	(bus_entry
+		(at 91.44 130.81)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7971a1c-07bc-40d4-be28-d5eccc7e07f0")
+	)
+	(bus_entry
+		(at 91.44 143.51)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c135d0-4d78-4d28-b29d-193816bcc73c")
+	)
+	(bus_entry
+		(at 91.44 158.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13fe613-b779-429c-b95d-0daa9efaf253")
 	)
 	(bus_entry
 		(at 97.79 85.09)
@@ -6150,6 +6687,51 @@
 		(uuid "c197e8d9-5a0a-4149-a4f6-d9ec53fc5e65")
 	)
 	(bus_entry
+		(at 91.44 153.67)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e41178-01ca-43a1-a840-7608c06662ad")
+	)
+	(bus_entry
+		(at 91.44 135.89)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cadc9374-d700-45b5-83aa-b189db39d055")
+	)
+	(bus_entry
+		(at 91.44 173.99)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb61990f-128c-414a-a118-e89f745f2923")
+	)
+	(bus_entry
+		(at 91.44 123.19)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d554b52f-1e29-4463-9c49-40cd9ece6e5d")
+	)
+	(bus_entry
+		(at 91.44 128.27)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d608c26b-8feb-4c3e-8b7e-0e4bd54dc55b")
+	)
+	(bus_entry
 		(at 97.79 110.49)
 		(size 2.54 2.54)
 		(stroke
@@ -6157,6 +6739,35 @@
 			(type default)
 		)
 		(uuid "da9f9572-2ba1-4532-840e-bac3cfca4b04")
+	)
+	(bus_entry
+		(at 91.44 105.41)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee23acff-c67c-4952-9837-75b33775fa8c")
+	)
+	(bus
+		(pts
+			(xy 91.44 176.53) (xy 91.44 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01cb57fc-3a34-4f68-af8d-aeb26a661467")
+	)
+	(wire
+		(pts
+			(xy 93.98 176.53) (xy 160.02 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f50c29-b60a-4e9b-86a5-4acaf81db95c")
 	)
 	(wire
 		(pts
@@ -6170,13 +6781,33 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 204.47) (xy 300.99 204.47)
+			(xy 160.02 146.05) (xy 168.91 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b0d8b09-9bb3-44f6-9bc4-adf0d6575121")
+		(uuid "082638e1-494a-4d26-8419-c3738c7b3300")
+	)
+	(wire
+		(pts
+			(xy 160.02 181.61) (xy 168.91 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ad8a22-183b-4bd3-8690-cef50ecbe2ce")
+	)
+	(wire
+		(pts
+			(xy 93.98 168.91) (xy 160.02 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b856d32-2c88-4c42-b41f-2f30bf495658")
 	)
 	(wire
 		(pts
@@ -6187,16 +6818,6 @@
 			(type default)
 		)
 		(uuid "0e2c00fa-0522-4302-bf39-b55c4e8c3cd9")
-	)
-	(wire
-		(pts
-			(xy 270.51 196.85) (xy 300.99 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eeab548-5c74-4b9b-9048-350bc09a85da")
 	)
 	(wire
 		(pts
@@ -6220,23 +6841,23 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 184.15) (xy 300.99 184.15)
+			(xy 160.02 176.53) (xy 168.91 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1775afa7-15d8-44a1-b60a-11fd58452718")
+		(uuid "12175c73-4ab3-477d-8ad5-2b113342e146")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 270.51 176.53) (xy 300.99 176.53)
+			(xy 91.44 163.83) (xy 91.44 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17e53461-66b9-4aca-9727-5d98aebed56a")
+		(uuid "16a1bacf-c648-421a-a7df-f87937cb8dd6")
 	)
 	(wire
 		(pts
@@ -6250,6 +6871,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 130.81) (xy 160.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b2e8808-f098-4c00-bfea-9275b0fabdae")
+	)
+	(wire
+		(pts
+			(xy 93.98 138.43) (xy 160.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b912ca0-27e9-4754-87be-619cd69e704c")
+	)
+	(wire
+		(pts
 			(xy 270.51 87.63) (xy 300.99 87.63)
 		)
 		(stroke
@@ -6258,15 +6899,35 @@
 		)
 		(uuid "1ce3cca3-e614-45bc-9163-6bd646f6fa9a")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 270.51 186.69) (xy 300.99 186.69)
+			(xy 91.44 148.59) (xy 91.44 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f448c25-a94f-40e9-8819-c6a0a737793d")
+		(uuid "1d938c83-56b8-44e2-b1d2-3971f3a23526")
+	)
+	(wire
+		(pts
+			(xy 93.98 156.21) (xy 160.02 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4d1b94-e60c-4f4f-9e7e-5c87c8491e17")
+	)
+	(wire
+		(pts
+			(xy 93.98 100.33) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa29444-390a-4b95-bc45-62d7912fac79")
 	)
 	(wire
 		(pts
@@ -6277,6 +6938,26 @@
 			(type default)
 		)
 		(uuid "1faf0ddc-b290-469e-9cca-32c2343b3c9f")
+	)
+	(wire
+		(pts
+			(xy 160.02 107.95) (xy 168.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ac867f-ee81-4cb4-9fb3-016f02ffdf71")
+	)
+	(wire
+		(pts
+			(xy 160.02 97.79) (xy 168.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fbedbf-1dd9-4760-8892-34afb5bf096a")
 	)
 	(wire
 		(pts
@@ -6300,13 +6981,23 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 173.99) (xy 300.99 173.99)
+			(xy 160.02 128.27) (xy 168.91 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "266bef21-0832-4196-b5b6-e364f132c62d")
+		(uuid "258e7625-c441-4467-bffa-cd75a159239a")
+	)
+	(bus
+		(pts
+			(xy 91.44 158.75) (xy 91.44 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260e0a75-9c8e-4d80-a194-98dc94583e4b")
 	)
 	(wire
 		(pts
@@ -6340,6 +7031,16 @@
 	)
 	(bus
 		(pts
+			(xy 91.44 143.51) (xy 91.44 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fff4da3-a832-40b3-bbf5-2385fafa87b3")
+	)
+	(bus
+		(pts
 			(xy 97.79 85.09) (xy 97.79 87.63)
 		)
 		(stroke
@@ -6347,6 +7048,46 @@
 			(type default)
 		)
 		(uuid "3050ca7e-ffc0-46c4-b315-b934d2625d22")
+	)
+	(bus
+		(pts
+			(xy 91.44 105.41) (xy 91.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3202f01c-4c3f-4780-92e0-65302e14dcab")
+	)
+	(wire
+		(pts
+			(xy 160.02 161.29) (xy 168.91 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32910036-53b2-477b-be90-2db3253da5bc")
+	)
+	(wire
+		(pts
+			(xy 160.02 171.45) (xy 168.91 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a6a2e4-1e02-428e-b85d-72aaebc83ded")
+	)
+	(bus
+		(pts
+			(xy 91.44 168.91) (xy 91.44 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3354f158-1291-45ef-9e17-9a06ca7b45ac")
 	)
 	(bus
 		(pts
@@ -6360,16 +7101,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 194.31) (xy 300.99 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b7dd8d-4784-48ad-a2d3-666fd0dff0d4")
-	)
-	(wire
-		(pts
 			(xy 270.51 118.11) (xy 300.99 118.11)
 		)
 		(stroke
@@ -6377,6 +7108,46 @@
 			(type default)
 		)
 		(uuid "38397f84-d605-43b9-9acd-f1f2643cea94")
+	)
+	(wire
+		(pts
+			(xy 93.98 135.89) (xy 160.02 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390caa3d-f10b-4c24-90de-a0a8e2cdcca1")
+	)
+	(bus
+		(pts
+			(xy 91.44 153.67) (xy 91.44 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "398a1efb-d589-4bb5-b4e9-72bfced51af4")
+	)
+	(wire
+		(pts
+			(xy 93.98 146.05) (xy 160.02 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cafa810-65cc-46c9-ab1b-e687896d90fd")
+	)
+	(wire
+		(pts
+			(xy 93.98 161.29) (xy 160.02 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d41cca9-4569-4642-83d3-0f4200437d9c")
 	)
 	(wire
 		(pts
@@ -6400,16 +7171,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 179.07) (xy 300.99 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3efb1e67-67ff-4915-803e-1316b0a505e3")
-	)
-	(wire
-		(pts
 			(xy 138.43 113.03) (xy 168.91 113.03)
 		)
 		(stroke
@@ -6417,6 +7178,126 @@
 			(type default)
 		)
 		(uuid "40c2665a-b711-475e-9d22-ce236de290c0")
+	)
+	(wire
+		(pts
+			(xy 160.02 138.43) (xy 168.91 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d94078-de09-46fa-81f6-1f61c1e14e1e")
+	)
+	(wire
+		(pts
+			(xy 93.98 133.35) (xy 160.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428a801f-0ed8-4f59-b9ec-f7dbced5e064")
+	)
+	(bus
+		(pts
+			(xy 91.44 120.65) (xy 91.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43849df1-e2ea-4210-993e-9f632c5c4f0f")
+	)
+	(wire
+		(pts
+			(xy 93.98 148.59) (xy 160.02 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494291af-60d5-4099-913a-ae3bcba18ca6")
+	)
+	(bus
+		(pts
+			(xy 91.44 135.89) (xy 91.44 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aed0559-7cb4-473d-a6b7-a7c26a83ee1c")
+	)
+	(bus
+		(pts
+			(xy 91.44 130.81) (xy 91.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7c0373-f4c8-4553-b495-fb38bb941fc7")
+	)
+	(bus
+		(pts
+			(xy 91.44 115.57) (xy 91.44 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee93fc1-61d7-4067-9e02-6254034d3af9")
+	)
+	(bus
+		(pts
+			(xy 91.44 146.05) (xy 91.44 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f7a0760-87a7-407b-a75b-c382d127446f")
+	)
+	(bus
+		(pts
+			(xy 91.44 92.71) (xy 55.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5083ea65-41c3-4cf0-859f-03eaa6a9c9b8")
+	)
+	(wire
+		(pts
+			(xy 93.98 110.49) (xy 97.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b76afc-549d-4759-b2af-5ca3c58a1fe6")
+	)
+	(wire
+		(pts
+			(xy 93.98 166.37) (xy 160.02 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53444b3c-371a-4cbc-80c2-5434e84bbe8d")
+	)
+	(bus
+		(pts
+			(xy 91.44 161.29) (xy 91.44 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a96719-295c-487d-ab6f-5eb2f3d3fb9f")
 	)
 	(wire
 		(pts
@@ -6430,6 +7311,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 173.99) (xy 168.91 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5915aa9a-ec59-4f1f-9981-682418b5536d")
+	)
+	(wire
+		(pts
 			(xy 270.51 166.37) (xy 300.99 166.37)
 		)
 		(stroke
@@ -6440,13 +7331,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 171.45) (xy 300.99 171.45)
+			(xy 160.02 168.91) (xy 168.91 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e29c607-6e18-493b-b3f8-946af0a7dd21")
+		(uuid "5f77e8c5-2d33-4689-a240-7246f2ae213f")
 	)
 	(wire
 		(pts
@@ -6470,6 +7361,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 97.79) (xy 160.02 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6517c000-d935-492a-935c-f546febedbd1")
+	)
+	(wire
+		(pts
 			(xy 270.51 163.83) (xy 300.99 163.83)
 		)
 		(stroke
@@ -6477,6 +7378,16 @@
 			(type default)
 		)
 		(uuid "662fd337-02c9-4de0-b6c2-3d6f88e0e700")
+	)
+	(wire
+		(pts
+			(xy 93.98 123.19) (xy 160.02 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6723863b-5500-4cbc-9305-1ed82559a9f2")
 	)
 	(wire
 		(pts
@@ -6490,6 +7401,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 158.75) (xy 168.91 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c42afea-8995-43c3-9797-6a2163411f87")
+	)
+	(wire
+		(pts
 			(xy 270.51 158.75) (xy 300.99 158.75)
 		)
 		(stroke
@@ -6498,15 +7419,35 @@
 		)
 		(uuid "6fb07d18-f43d-418a-b51c-0d6e89f3255c")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 270.51 181.61) (xy 300.99 181.61)
+			(xy 91.44 128.27) (xy 91.44 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7554f7c4-a04c-479a-b823-1450504b031b")
+		(uuid "72272ff8-730c-47ad-b732-e339d29a799f")
+	)
+	(bus
+		(pts
+			(xy 91.44 171.45) (xy 91.44 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729f15de-ed85-4420-88cf-bd8d991791ea")
+	)
+	(bus
+		(pts
+			(xy 91.44 125.73) (xy 91.44 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731a1bff-4e79-47e9-96c8-033c03d48f0a")
 	)
 	(bus
 		(pts
@@ -6520,6 +7461,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 163.83) (xy 168.91 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8014ef03-fe74-4b93-8026-5dcccbc63489")
+	)
+	(wire
+		(pts
+			(xy 160.02 120.65) (xy 168.91 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b51001-a68d-4c66-8988-eafbf98fe446")
+	)
+	(wire
+		(pts
 			(xy 270.51 156.21) (xy 300.99 156.21)
 		)
 		(stroke
@@ -6527,6 +7488,66 @@
 			(type default)
 		)
 		(uuid "81a852cb-9ac9-460b-b9db-9032e5e9be08")
+	)
+	(bus
+		(pts
+			(xy 91.44 138.43) (xy 91.44 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862b6d27-c9d2-4672-8cd1-29f93c48bb86")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.33) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e2c4b5-cf0e-4acb-9bc1-3137d8970d81")
+	)
+	(bus
+		(pts
+			(xy 91.44 118.11) (xy 91.44 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87210a2f-9744-440d-a53f-4b2f4e67d069")
+	)
+	(wire
+		(pts
+			(xy 160.02 133.35) (xy 168.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a07ed4e-f8ca-41a9-99da-8a2e18ccab5b")
+	)
+	(wire
+		(pts
+			(xy 160.02 153.67) (xy 168.91 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bff5ace-e115-4d48-a60b-88d68cb67e6a")
+	)
+	(wire
+		(pts
+			(xy 93.98 107.95) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd33686-6884-46d1-aad4-8a0c928f92f4")
 	)
 	(wire
 		(pts
@@ -6540,13 +7561,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 191.77) (xy 300.99 191.77)
+			(xy 93.98 120.65) (xy 160.02 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e189bd3-e6f4-4bc3-bfaf-c93e465b2262")
+		(uuid "8f9e0f31-be0b-4fc9-8646-8a18761d3b0d")
 	)
 	(wire
 		(pts
@@ -6580,13 +7601,43 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 189.23) (xy 300.99 189.23)
+			(xy 160.02 135.89) (xy 168.91 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95c11658-6e3a-40f3-adde-24dd7f29d65f")
+		(uuid "98f0a2bf-7679-43e7-8d0b-4c74afe772ae")
+	)
+	(wire
+		(pts
+			(xy 160.02 105.41) (xy 168.91 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992a02f2-c13a-4ac7-9430-f5a48d45bef7")
+	)
+	(wire
+		(pts
+			(xy 160.02 125.73) (xy 168.91 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b09cc84-c2df-404d-ba48-0451ec629552")
+	)
+	(wire
+		(pts
+			(xy 93.98 163.83) (xy 160.02 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc5f8af-aa71-40ad-8eac-b3cc82d36e7c")
 	)
 	(wire
 		(pts
@@ -6597,6 +7648,16 @@
 			(type default)
 		)
 		(uuid "9f4860a5-70eb-4b49-9a98-e4efe5065bc4")
+	)
+	(wire
+		(pts
+			(xy 160.02 143.51) (xy 168.91 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f818aa3-9877-417e-a813-bec1d0f71c27")
 	)
 	(bus
 		(pts
@@ -6610,13 +7671,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 199.39) (xy 300.99 199.39)
+			(xy 160.02 118.11) (xy 168.91 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1d5607d-1930-4e39-9815-f0eee248cf2b")
+		(uuid "a25f365b-b1db-48a0-9982-7e0878469fe1")
 	)
 	(bus
 		(pts
@@ -6630,6 +7691,66 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 140.97) (xy 160.02 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60198c0-c1b1-4600-b282-7441be3ef59d")
+	)
+	(wire
+		(pts
+			(xy 93.98 153.67) (xy 160.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90e4b8e-b5f4-4aad-a907-d98e39171c0e")
+	)
+	(bus
+		(pts
+			(xy 91.44 123.19) (xy 91.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8e1185-7b90-44b2-bf45-bf1196fbad2e")
+	)
+	(wire
+		(pts
+			(xy 93.98 105.41) (xy 160.02 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb6c330-e0b2-4777-9c25-91d873202317")
+	)
+	(bus
+		(pts
+			(xy 91.44 151.13) (xy 91.44 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb800d7-e475-4b52-9cda-4692c80347cf")
+	)
+	(bus
+		(pts
+			(xy 91.44 166.37) (xy 91.44 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7c2122-8cd4-443e-872a-a4b0cb33a5de")
+	)
+	(wire
+		(pts
 			(xy 270.51 105.41) (xy 300.99 105.41)
 		)
 		(stroke
@@ -6640,6 +7761,46 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 128.27) (xy 160.02 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fa8206-c009-4539-ac34-40c35a5135ec")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 168.91 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8708222-fb76-45f2-bd91-beddc30d254a")
+	)
+	(wire
+		(pts
+			(xy 93.98 173.99) (xy 160.02 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b887ba52-2387-43fd-8499-b6d5a9605b20")
+	)
+	(wire
+		(pts
+			(xy 93.98 171.45) (xy 160.02 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5a30af-7554-4362-9783-dc4795919e4e")
+	)
+	(wire
+		(pts
 			(xy 270.51 120.65) (xy 300.99 120.65)
 		)
 		(stroke
@@ -6647,6 +7808,16 @@
 			(type default)
 		)
 		(uuid "bc9b4688-e033-4dfd-b281-72a23c605688")
+	)
+	(bus
+		(pts
+			(xy 91.44 156.21) (xy 91.44 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1441b17-918f-44af-94ab-ecb8880e8521")
 	)
 	(wire
 		(pts
@@ -6660,6 +7831,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 123.19) (xy 168.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2020005-96d1-4d64-a6ce-72bb814936a0")
+	)
+	(wire
+		(pts
+			(xy 160.02 140.97) (xy 168.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fb8bba-0159-43f4-b235-47d6cb0173ca")
+	)
+	(wire
+		(pts
 			(xy 100.33 90.17) (xy 130.81 90.17)
 		)
 		(stroke
@@ -6667,6 +7858,46 @@
 			(type default)
 		)
 		(uuid "c7a7253a-a318-42b7-a795-905e25e49a33")
+	)
+	(bus
+		(pts
+			(xy 91.44 97.79) (xy 91.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c838294d-2b17-4684-9964-08ae226167e3")
+	)
+	(bus
+		(pts
+			(xy 91.44 102.87) (xy 91.44 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2940b3-12be-436f-b717-2fbb8579084c")
+	)
+	(wire
+		(pts
+			(xy 160.02 148.59) (xy 168.91 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb37fcdf-3d2f-4f8c-846c-38c468cacfe2")
+	)
+	(wire
+		(pts
+			(xy 93.98 158.75) (xy 160.02 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8f88a9-d212-4cb4-a58c-3b78c3411ca5")
 	)
 	(wire
 		(pts
@@ -6680,6 +7911,36 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 166.37) (xy 168.91 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5e42d1-9fcf-4021-b19f-051e64bdd4f0")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.87) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf947513-7baf-4b53-b474-d5913488b088")
+	)
+	(bus
+		(pts
+			(xy 91.44 92.71) (xy 91.44 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0819bae-ac94-4862-b3a2-82e34fd46633")
+	)
+	(wire
+		(pts
 			(xy 270.51 90.17) (xy 300.99 90.17)
 		)
 		(stroke
@@ -6687,6 +7948,36 @@
 			(type default)
 		)
 		(uuid "d25848e2-2a95-4768-9b95-c6cb08045c8e")
+	)
+	(bus
+		(pts
+			(xy 91.44 95.25) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33f09f5-bb1c-4258-bba0-1f317cd1a350")
+	)
+	(wire
+		(pts
+			(xy 93.98 151.13) (xy 160.02 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3acc0c5-1115-4f6b-b657-ef10b5ad0924")
+	)
+	(bus
+		(pts
+			(xy 91.44 100.33) (xy 91.44 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d411f099-aa71-4a6c-9c96-e7c9638f167f")
 	)
 	(wire
 		(pts
@@ -6700,13 +7991,23 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 168.91) (xy 300.99 168.91)
+			(xy 160.02 130.81) (xy 168.91 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db54d140-decc-45ac-a08b-ad05c1eb2d6f")
+		(uuid "d8445e9b-bb75-4724-98b3-f5c6af4edb95")
+	)
+	(bus
+		(pts
+			(xy 91.44 173.99) (xy 91.44 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d863c119-8d35-4cc2-98e9-6ba778fa0dc5")
 	)
 	(wire
 		(pts
@@ -6720,13 +8021,13 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 201.93) (xy 300.99 201.93)
+			(xy 93.98 179.07) (xy 160.02 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df3b0837-5538-4eec-9d7e-d2c13f8a4563")
+		(uuid "df3dfdd2-912b-418e-b40f-7af65a787ea4")
 	)
 	(wire
 		(pts
@@ -6740,6 +8041,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 143.51) (xy 160.02 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14f134e-49de-4759-8fab-1ebec815b24e")
+	)
+	(bus
+		(pts
+			(xy 91.44 133.35) (xy 91.44 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d9f344-bec4-4d31-a56f-e9e060360163")
+	)
+	(wire
+		(pts
 			(xy 270.51 92.71) (xy 300.99 92.71)
 		)
 		(stroke
@@ -6747,6 +8068,16 @@
 			(type default)
 		)
 		(uuid "e88fda1a-3322-4c87-9cae-7c3640edfb7c")
+	)
+	(wire
+		(pts
+			(xy 93.98 102.87) (xy 160.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96471d9-ac84-4bc7-911d-56c7643548d0")
 	)
 	(wire
 		(pts
@@ -6760,6 +8091,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 151.13) (xy 168.91 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1a2299-498a-49b1-9d69-c5dd09298d28")
+	)
+	(bus
+		(pts
+			(xy 91.44 107.95) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf0896a-5417-4c1a-891f-6ddadc5e1349")
+	)
+	(wire
+		(pts
 			(xy 270.51 146.05) (xy 300.99 146.05)
 		)
 		(stroke
@@ -6767,6 +8118,26 @@
 			(type default)
 		)
 		(uuid "efdd1994-4e68-4c37-8d05-62024c3a966d")
+	)
+	(wire
+		(pts
+			(xy 160.02 179.07) (xy 168.91 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cd1b32-dfbf-4067-b70e-938405ce7b2e")
+	)
+	(wire
+		(pts
+			(xy 93.98 181.61) (xy 160.02 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91bad90-28fe-4196-be5d-53d327ab3112")
 	)
 	(wire
 		(pts
@@ -6780,13 +8151,53 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 207.01) (xy 300.99 207.01)
+			(xy 93.98 118.11) (xy 160.02 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa85a508-70b6-4da1-93b6-892aa0f1960e")
+		(uuid "fa28f390-eace-411b-a392-d58c65e67aef")
+	)
+	(wire
+		(pts
+			(xy 97.79 110.49) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa3320e7-4b1f-45c8-97e7-8427f1e9c89c")
+	)
+	(wire
+		(pts
+			(xy 160.02 156.21) (xy 168.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9171ce-876b-41d9-bf99-0cbc662e0646")
+	)
+	(bus
+		(pts
+			(xy 91.44 140.97) (xy 91.44 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2fae82-932b-45ee-801d-9b407104a9fd")
+	)
+	(wire
+		(pts
+			(xy 93.98 125.73) (xy 160.02 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb53c89e-f400-4f11-bdbe-c685ec4bd62e")
 	)
 	(bus
 		(pts
@@ -6797,6 +8208,17 @@
 			(type default)
 		)
 		(uuid "fc8e28d1-3944-4c15-904c-a0660c16a3ad")
+	)
+	(label "DO.DO1-"
+		(at 143.51 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00e39719-74f3-4113-b5eb-0c010e53bd4e")
 	)
 	(label "FLASH_SPI{D0 D1 D2 D3 CS#}"
 		(at 62.23 80.01 0)
@@ -6820,6 +8242,17 @@
 		)
 		(uuid "037d897e-efad-4520-9227-f339214760c8")
 	)
+	(label "DO.DO12-"
+		(at 143.51 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0782d25a-1bd6-4912-a2c1-6a6dc430ace4")
+	)
 	(label "DATA_INP3+"
 		(at 275.59 97.79 0)
 		(fields_autoplaced yes)
@@ -6842,8 +8275,8 @@
 		)
 		(uuid "12bbce3d-8fbd-4a78-a1a8-3af64a454634")
 	)
-	(label "DATA_INP1+"
-		(at 275.59 179.07 0)
+	(label "DO.DO5-"
+		(at 143.51 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6851,7 +8284,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "13645a39-cf51-4361-8860-5badc4067060")
+		(uuid "149372b0-f546-449d-9a71-d31001459997")
 	)
 	(label "DATA_INP13-"
 		(at 275.59 151.13 0)
@@ -6863,6 +8296,17 @@
 			(justify left bottom)
 		)
 		(uuid "1672a700-cc13-411c-ac3d-2acf711c2f1f")
+	)
+	(label "DO.DO12+"
+		(at 143.51 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "196e238a-d10c-40ba-a2bf-7ca5f568d7cb")
 	)
 	(label "DATA_INP12-"
 		(at 275.59 146.05 0)
@@ -6886,8 +8330,8 @@
 		)
 		(uuid "1d7538ef-43e9-41c3-8a9c-36d23b428411")
 	)
-	(label "DATA_INP1+"
-		(at 275.59 204.47 0)
+	(label "DO.DO3-"
+		(at 143.51 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6895,7 +8339,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2172b318-f2d0-4f16-91b2-55dd40561a51")
+		(uuid "216d0a9a-5b7f-4702-85fe-474d48cd45a1")
+	)
+	(label "DO.DO15+"
+		(at 143.51 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "237af25b-cccf-4710-83c3-ff158578b212")
+	)
+	(label "DO.DO9+"
+		(at 143.51 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2491d6fa-e8bf-4ef7-b171-d0255cc4e2b1")
 	)
 	(label "DATA_INP14-"
 		(at 275.59 156.21 0)
@@ -6919,6 +8385,61 @@
 		)
 		(uuid "2fcd43d4-d3bf-46e6-a74c-037b6d88aeb9")
 	)
+	(label "DO.DO10+"
+		(at 143.51 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31aa0e35-f522-4a31-8fcd-f7fb20404ce4")
+	)
+	(label "DO.DO9-"
+		(at 143.51 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32cfa27f-1908-4126-8325-c95e32bd9316")
+	)
+	(label "DO.DO7-"
+		(at 143.51 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33c4eb6d-e91c-475c-876d-a194ed18c8ae")
+	)
+	(label "DO.DO2-"
+		(at 143.51 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37adff68-e57e-4e2f-9c47-f4175d12b15a")
+	)
+	(label "DO.DO3+"
+		(at 143.51 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41be3bb9-2540-40d9-9565-764d5db26991")
+	)
 	(label "DATA_INP11+"
 		(at 275.59 138.43 0)
 		(fields_autoplaced yes)
@@ -6941,39 +8462,6 @@
 		)
 		(uuid "49fd6077-c240-4700-bb45-83f096754190")
 	)
-	(label "DATA_INP1+"
-		(at 275.59 199.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d2e3293-7082-4a01-9db2-0cf0b13da693")
-	)
-	(label "DATA_INP1+"
-		(at 275.59 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5023850e-5528-47f4-ad8d-aaf2954e3623")
-	)
-	(label "DATA_INP1-"
-		(at 275.59 171.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "518e8430-becf-4d32-9d8b-5daac81bedbb")
-	)
 	(label "DATA_INP16+"
 		(at 275.59 163.83 0)
 		(fields_autoplaced yes)
@@ -6984,6 +8472,17 @@
 			(justify left bottom)
 		)
 		(uuid "5285ee74-555b-46b7-81b5-ed97caec096f")
+	)
+	(label "DO.DO16-"
+		(at 143.51 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53883972-d645-4b48-8926-785a4ec912ab")
 	)
 	(label "DATA_INP8-"
 		(at 275.59 125.73 0)
@@ -7007,6 +8506,17 @@
 		)
 		(uuid "55eca0cd-df4e-4323-b89c-78e432883325")
 	)
+	(label "DO.DO11-"
+		(at 143.51 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5776912d-957a-47cd-8f47-16ae2e144046")
+	)
 	(label "INT_FLASH_SPI_D0"
 		(at 143.51 87.63 0)
 		(fields_autoplaced yes)
@@ -7017,6 +8527,17 @@
 			(justify left bottom)
 		)
 		(uuid "584aa548-ee09-4aec-a8c7-e79f3dadd4c2")
+	)
+	(label "DO.DO6-"
+		(at 143.51 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "594fc18e-a124-409b-ba39-393084428d49")
 	)
 	(label "INT_FLASH_SPI_D2"
 		(at 143.51 92.71 0)
@@ -7051,8 +8572,8 @@
 		)
 		(uuid "620deec7-5050-4ac7-a648-d6a1f06b85e1")
 	)
-	(label "DATA_INP1+"
-		(at 275.59 194.31 0)
+	(label "DO.DO15-"
+		(at 143.51 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7060,10 +8581,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "65261195-8e3a-4c0e-8b83-140caad39d00")
+		(uuid "67091524-89a0-452c-925c-61dd86a286fa")
 	)
-	(label "DATA_INP1-"
-		(at 275.59 207.01 0)
+	(label "DO.DO16+"
+		(at 143.51 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7071,7 +8592,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6b8aa268-3ac0-4946-81ff-4a35c708603a")
+		(uuid "6c51c8db-5edb-4b22-9712-813b507bb961")
 	)
 	(label "DATA_INP2-"
 		(at 275.59 95.25 0)
@@ -7117,8 +8638,8 @@
 		)
 		(uuid "771e1edf-5ef7-4af2-96ba-b11ae29e9d28")
 	)
-	(label "DATA_INP1-"
-		(at 275.59 176.53 0)
+	(label "DO.DO8+"
+		(at 143.51 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7126,10 +8647,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7cfba8ce-0703-499e-a446-acef0d42aa29")
+		(uuid "80620227-a9b2-4bc1-a679-ed6d1e5894e1")
 	)
-	(label "DATA_INP1-"
-		(at 275.59 196.85 0)
+	(label "DO.DO7+"
+		(at 143.51 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7137,10 +8658,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8d952924-bb97-4b9d-8acd-00d0f6a87cb0")
+		(uuid "85a94150-eac7-4432-80e0-3b24046d29fe")
 	)
-	(label "DATA_INP1-"
-		(at 275.59 191.77 0)
+	(label "DO.DO5+"
+		(at 143.51 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7148,18 +8669,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9116b7d4-c549-41c3-b979-079c83d5bd62")
-	)
-	(label "DATA_INP1-"
-		(at 275.59 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "915e7e7e-05af-41ce-a762-3d9d2e65f812")
+		(uuid "8c0de749-50fb-42b6-9db9-f0f0d6b48a0f")
 	)
 	(label "DATA_INP5-"
 		(at 275.59 110.49 0)
@@ -7183,8 +8693,8 @@
 		)
 		(uuid "9b88fed8-3dbb-4418-ab45-b5a741475eae")
 	)
-	(label "DATA_INP1+"
-		(at 275.59 184.15 0)
+	(label "DO.DO10-"
+		(at 143.51 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7192,7 +8702,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9c86dd63-87fb-4bb5-abdb-287da4c02aa5")
+		(uuid "9dbb4909-8a4a-4af0-8f1a-ac6e6c3ee76c")
+	)
+	(label "DO.DO2+"
+		(at 143.51 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fde0bd2-3240-4bed-b664-3482c031595a")
 	)
 	(label "DATA_INP7-"
 		(at 275.59 120.65 0)
@@ -7205,8 +8726,8 @@
 		)
 		(uuid "a1dc990f-3350-4db5-bd44-d8ee55f353bd")
 	)
-	(label "DATA_INP1+"
-		(at 275.59 189.23 0)
+	(label "DO.DO13-"
+		(at 143.51 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7214,10 +8735,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a575bc6d-4a0a-43b6-ae33-f0b5bb1291ca")
+		(uuid "a2a69d12-daf2-40a5-8a44-b2cec611177b")
 	)
-	(label "DATA_INP1-"
-		(at 275.59 186.69 0)
+	(label "DO.DO11+"
+		(at 143.51 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7225,18 +8746,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a6753aa9-afa2-4905-8380-fe9374fa487d")
-	)
-	(label "DATA_INP1-"
-		(at 275.59 201.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab074b31-6690-4228-b11e-ffcc0e60257a")
+		(uuid "a82593f9-4069-4334-bcf3-940ce19f8d9e")
 	)
 	(label "DATA_INP7+"
 		(at 275.59 118.11 0)
@@ -7259,17 +8769,6 @@
 			(justify left bottom)
 		)
 		(uuid "b1e525ff-885d-41bb-a1e0-19a6f259fb32")
-	)
-	(label "DATA_INP1+"
-		(at 275.59 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1f000cf-bff5-4fe9-bb78-aa65148d7882")
 	)
 	(label "DATA_INP5+"
 		(at 275.59 107.95 0)
@@ -7337,6 +8836,17 @@
 		)
 		(uuid "bd0559fa-5072-42e2-9d81-70f125dc8e17")
 	)
+	(label "DO.DO6+"
+		(at 143.51 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bffe6de5-e8e9-4cc2-ac0e-8bda46a00ba1")
+	)
 	(label "DATA_INP9+"
 		(at 275.59 128.27 0)
 		(fields_autoplaced yes)
@@ -7370,6 +8880,17 @@
 		)
 		(uuid "c3d508c9-fcf1-401b-a83d-ce7d3c6892d4")
 	)
+	(label "DO.DO4+"
+		(at 143.51 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9d261c4-8388-4364-ae5e-f1202e8d3a72")
+	)
 	(label "DATA_INP6+"
 		(at 275.59 113.03 0)
 		(fields_autoplaced yes)
@@ -7392,6 +8913,28 @@
 		)
 		(uuid "cbde2a5d-cbf7-41f9-a9ca-cb288e420323")
 	)
+	(label "DO.DO8-"
+		(at 143.51 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cde906f0-4f0c-42cd-a7db-fbfbf4142467")
+	)
+	(label "DO.DO14+"
+		(at 143.51 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d940c2e2-9d3b-4299-af43-919efd91709c")
+	)
 	(label "FLASH_SPI.CS#"
 		(at 105.41 113.03 0)
 		(fields_autoplaced yes)
@@ -7402,6 +8945,28 @@
 			(justify left bottom)
 		)
 		(uuid "dc972e98-7952-45e6-9363-66973ad3a1ea")
+	)
+	(label "DO.DO1+"
+		(at 143.51 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd9c0861-5b1b-4fa2-8f4d-2b3dd6c6f298")
+	)
+	(label "DO.DO13+"
+		(at 143.51 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de04b248-7baf-458b-af50-55001c156865")
 	)
 	(label "DATA_INP15-"
 		(at 275.59 161.29 0)
@@ -7414,6 +8979,17 @@
 		)
 		(uuid "e59c20e4-a653-4856-86f8-93f6bc98168d")
 	)
+	(label "DO.DO4-"
+		(at 143.51 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5ac7bc1-6fb7-439a-b4c4-861f2b6ce6f1")
+	)
 	(label "INT_FLASH_SPI_D3"
 		(at 143.51 95.25 0)
 		(fields_autoplaced yes)
@@ -7424,6 +9000,28 @@
 			(justify left bottom)
 		)
 		(uuid "eb22ce86-eb15-4b85-a7ba-d781c418aa8c")
+	)
+	(label "DO.DO14-"
+		(at 143.51 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec1b1fc8-23cd-49dd-814f-3e43eaebca9c")
+	)
+	(label "DO{D1+ D1- D2+ D2- D3+ D3- D4+ D4- D5+ D5- D6+ D6- D7+ D7- D8+ D8- D9+ D9- D10+ D10- D11+ D11- D12+ D12- D13+ D13- D14+ D14- D15+ D15- D16+ D16-}"
+		(at 55.88 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec1dec4e-3a8d-42ab-adf2-28c2c738810a")
 	)
 	(label "DATA_INP2+"
 		(at 275.59 92.71 0)
@@ -7447,6 +9045,18 @@
 		)
 		(uuid "ffceb558-f9de-4484-9e16-15c2d4252ea9")
 	)
+	(hierarchical_label "DO"
+		(shape output)
+		(at 55.88 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86678ea3-b0e6-4061-b1b2-06f930fecbb9")
+	)
 	(hierarchical_label "FLASH_SPI"
 		(shape bidirectional)
 		(at 62.23 80.01 180)
@@ -7458,6 +9068,414 @@
 			(justify right)
 		)
 		(uuid "f8a20998-9601-4385-ad0f-e87202ae1cd3")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0154e1f2-4382-4df6-87a8-9e3141866227")
+		(property "Reference" "TP29"
+			(at 161.29 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec432733-14a1-4b1b-9fba-7da000f4f7a5")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "018d7db4-3478-404f-a315-f891a95a9a3a")
+		(property "Reference" "TP37"
+			(at 161.29 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2326a518-2cb1-4ac4-bf47-e938711a4490")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c4823c8-be05-44ce-b873-ae1546c7aad6")
+		(property "Reference" "TP19"
+			(at 161.29 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b26b2a3-ea49-49ea-97f8-db19441cd565")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13b33bc9-280e-4890-977e-ab293d48551c")
+		(property "Reference" "TP33"
+			(at 161.29 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dd8ef90-4870-4c2c-99e0-16a93af4eee2")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16687388-0786-4e52-87a9-c09ac34b7d92")
+		(property "Reference" "TP17"
+			(at 161.29 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a8c54c6-a4f7-4557-8720-d17d0bffe355")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25645c8c-d776-40e2-9b7f-27e086c8dfff")
+		(property "Reference" "TP43"
+			(at 161.29 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "495dda1e-34d0-4014-8425-95e47e2d3415")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP43")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7530,6 +9548,278 @@
 			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d679ef5-0491-4502-9fbd-d2c9ab9a091f")
+		(property "Reference" "TP34"
+			(at 161.29 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f27b9921-f0a8-4687-bbad-1c4fe2b2076d")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44eb5d7b-81e8-4dda-b8fb-5709ea48e441")
+		(property "Reference" "TP28"
+			(at 161.29 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "224d7ff3-962e-4a19-8d61-281cc8cdcf5d")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "452ee39f-2dc2-4989-a081-d5f73ea1cc30")
+		(property "Reference" "TP30"
+			(at 161.29 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e978128-c83f-4b03-ab47-b234244cbc75")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "492a34d5-76e5-4043-9a55-a1ce8a14afbf")
+		(property "Reference" "TP48"
+			(at 161.29 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1faf3e97-3002-4bc7-9eb3-779d6bfe85de")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP48")
 					(unit 1)
 				)
 			)
@@ -7758,6 +10048,618 @@
 			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b39c2a2-041d-4d7f-962e-85c8d5396250")
+		(property "Reference" "TP38"
+			(at 161.29 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e1ee92c-6c26-4a2e-bf6c-0b1d5187cb64")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "616c1975-4de3-4816-8a89-a2ad8059a7c0")
+		(property "Reference" "TP20"
+			(at 161.29 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad892db5-2f08-491f-ac4d-8a7cc13cea58")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67a7dbfb-4ac9-4abe-8a8f-a9f7f3da87e9")
+		(property "Reference" "TP22"
+			(at 161.29 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7452a70-f86e-430d-a2ad-ff5ca7c0652c")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ef3208c-dc76-432d-a2f6-7a6139a507c6")
+		(property "Reference" "TP47"
+			(at 161.29 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb2cfd7f-bf9d-439c-b3ea-3e38da199922")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7971eea2-2a72-49f7-a776-69bc9aae01a3")
+		(property "Reference" "TP35"
+			(at 161.29 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d112b7af-0db1-4310-96d9-e1c13c0f6753")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aaf3e66-e97e-4cef-972e-a03ada3d27f3")
+		(property "Reference" "TP27"
+			(at 161.29 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68586129-369f-432e-b437-c772fd879d78")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b8d025c-93e9-41a4-ad9a-0e2b6387c5e7")
+		(property "Reference" "TP41"
+			(at 161.29 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "feab0b81-3c09-46f3-9648-e9dec9744209")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "852dc981-c858-4e3c-bbea-3587150e61fc")
+		(property "Reference" "TP40"
+			(at 161.29 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c23ae7e-d074-4c29-a4ed-872c52a5b040")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "986f78f6-feef-4794-8c68-90f94839c31e")
+		(property "Reference" "TP39"
+			(at 161.29 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ab3cbc8-5287-4980-b52b-4b8fcf22a437")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -8797,6 +11699,686 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b388eb1b-7e70-4015-a4d0-3f0d6d71002d")
+		(property "Reference" "TP44"
+			(at 161.29 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "812b25a8-fba7-439a-8842-2fbb5f569fd5")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3a33766-9bad-4c01-9cfa-5de0503d56ac")
+		(property "Reference" "TP21"
+			(at 161.29 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "691f0561-3fdb-44b0-8180-ead73b5ef978")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb166e9d-12b5-4e0f-9bda-4c6399914e45")
+		(property "Reference" "TP25"
+			(at 161.29 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e840b8dd-9e23-4d8c-8456-479dc1756ecd")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd580672-1a37-4f7c-8576-33df53c6cf05")
+		(property "Reference" "TP36"
+			(at 161.29 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3569a008-9533-46a7-ba71-0a194da290d3")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d24e1d08-b236-408a-a03c-810a3ead2d2f")
+		(property "Reference" "TP24"
+			(at 161.29 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e01d6a1f-57c2-43c8-8181-c3cdaef22b41")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d24e6f4f-9eeb-4d35-8e3c-11850dc21da7")
+		(property "Reference" "TP32"
+			(at 161.29 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d48161a9-e91b-4cc7-bd56-5b9fbc8303eb")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6e1e40c-1895-417a-9998-130ff657425d")
+		(property "Reference" "TP42"
+			(at 161.29 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fc31ac8-b9e3-4adf-b006-a451d4af5a32")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8a7f509-9b9a-4671-878b-4bd53714c6f1")
+		(property "Reference" "TP46"
+			(at 161.29 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a4c04e4-2a3d-4232-9d6a-96c6e1c574f2")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebdc9c82-65eb-4ca2-84d2-05453e9018fc")
+		(property "Reference" "TP45"
+			(at 161.29 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c521e077-fcc9-48c8-b047-1f1516e73dbf")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eef66e01-eaeb-4255-992b-7ba946a75c67")
+		(property "Reference" "TP18"
+			(at 161.29 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c6172e8-f4dc-497f-a525-39d2154dbbaa")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 90.17 90)
 		(unit 1)
@@ -8867,6 +12449,210 @@
 			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb1cf7e0-fc73-4d3a-b559-2e2726efc434")
+		(property "Reference" "TP26"
+			(at 161.29 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ba8fd50-cef3-4084-99ff-e1eb6c9b7993")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb575e6f-5162-4a22-8511-be6fab9af68b")
+		(property "Reference" "TP31"
+			(at 161.29 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5585b005-f151-4e18-ab79-6e689f6d2e2e")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 160.02 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fedead1a-2e0e-41ad-a1fd-de1ed21d15e6")
+		(property "Reference" "TP23"
+			(at 161.29 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 161.29 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d277b113-dcf4-4740-aee6-91493a739206")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9/6d33460e-8460-4615-81a1-821cfc5afbfb"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
