@@ -8231,7 +8231,7 @@
 		)
 		(uuid "01f2849d-fef5-4b56-b990-38ee182c4dbb")
 	)
-	(label "DI.DI14+"
+	(label "DATA_INP14+"
 		(at 275.59 153.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8253,7 +8253,7 @@
 		)
 		(uuid "0782d25a-1bd6-4912-a2c1-6a6dc430ace4")
 	)
-	(label "DI.DI3+"
+	(label "DATA_INP3+"
 		(at 275.59 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8264,7 +8264,7 @@
 		)
 		(uuid "0f7b9ed2-78a8-4001-9bcd-3fc4b0cf0450")
 	)
-	(label "DI.DI9-"
+	(label "DATA_INP9-"
 		(at 275.59 130.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8286,7 +8286,7 @@
 		)
 		(uuid "149372b0-f546-449d-9a71-d31001459997")
 	)
-	(label "DI.DI13-"
+	(label "DATA_INP13-"
 		(at 275.59 151.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8308,7 +8308,7 @@
 		)
 		(uuid "196e238a-d10c-40ba-a2bf-7ca5f568d7cb")
 	)
-	(label "DI.DI12-"
+	(label "DATA_INP12-"
 		(at 275.59 146.05 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8363,7 +8363,7 @@
 		)
 		(uuid "2491d6fa-e8bf-4ef7-b171-d0255cc4e2b1")
 	)
-	(label "DI.DI14-"
+	(label "DATA_INP14-"
 		(at 275.59 156.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8374,7 +8374,7 @@
 		)
 		(uuid "27a50a73-dbb8-42a1-860f-6c6f981d3366")
 	)
-	(label "DI.DI13+"
+	(label "DATA_INP13+"
 		(at 275.59 148.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8440,7 +8440,7 @@
 		)
 		(uuid "41be3bb9-2540-40d9-9565-764d5db26991")
 	)
-	(label "DI.DI11+"
+	(label "DATA_INP11+"
 		(at 275.59 138.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8451,7 +8451,7 @@
 		)
 		(uuid "4664a58a-fb1a-4350-b061-adbbba2b90f2")
 	)
-	(label "DI.DI10+"
+	(label "DATA_INP10+"
 		(at 275.59 133.35 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8462,7 +8462,7 @@
 		)
 		(uuid "49fd6077-c240-4700-bb45-83f096754190")
 	)
-	(label "DI.DI16+"
+	(label "DATA_INP16+"
 		(at 275.59 163.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8484,7 +8484,7 @@
 		)
 		(uuid "53883972-d645-4b48-8926-785a4ec912ab")
 	)
-	(label "DI.DI8-"
+	(label "DATA_INP8-"
 		(at 275.59 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8550,7 +8550,7 @@
 		)
 		(uuid "5b65993f-8bbe-4045-84d5-0bf941bd5d7d")
 	)
-	(label "DI.DI15+"
+	(label "DATA_INP15+"
 		(at 275.59 158.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8561,7 +8561,7 @@
 		)
 		(uuid "60522399-17df-47ac-b14a-49413c742a75")
 	)
-	(label "DI.DI1+"
+	(label "DATA_INP1+"
 		(at 275.59 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8594,7 +8594,7 @@
 		)
 		(uuid "6c51c8db-5edb-4b22-9712-813b507bb961")
 	)
-	(label "DI.DI2-"
+	(label "DATA_INP2-"
 		(at 275.59 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8605,7 +8605,7 @@
 		)
 		(uuid "71e91d91-9695-4b41-90a3-d97b62116aaf")
 	)
-	(label "DI.DI12+"
+	(label "DATA_INP12+"
 		(at 275.59 143.51 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8627,7 +8627,7 @@
 		)
 		(uuid "75a1b3d4-a082-43be-9cd7-80a52edfb2c5")
 	)
-	(label "DI.DI6-"
+	(label "DATA_INP6-"
 		(at 275.59 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8671,7 +8671,7 @@
 		)
 		(uuid "8c0de749-50fb-42b6-9db9-f0f0d6b48a0f")
 	)
-	(label "DI.DI5-"
+	(label "DATA_INP5-"
 		(at 275.59 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8682,7 +8682,7 @@
 		)
 		(uuid "98710709-ed53-488c-a794-4bf5c9b87d86")
 	)
-	(label "DI.DI3-"
+	(label "DATA_INP3-"
 		(at 275.59 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8715,7 +8715,7 @@
 		)
 		(uuid "9fde0bd2-3240-4bed-b664-3482c031595a")
 	)
-	(label "DI.DI7-"
+	(label "DATA_INP7-"
 		(at 275.59 120.65 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8748,7 +8748,7 @@
 		)
 		(uuid "a82593f9-4069-4334-bcf3-940ce19f8d9e")
 	)
-	(label "DI.DI7+"
+	(label "DATA_INP7+"
 		(at 275.59 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8759,7 +8759,7 @@
 		)
 		(uuid "af96dd7b-c6ad-41a0-b1b1-6964e9a4d4e6")
 	)
-	(label "DI.DI16-"
+	(label "DATA_INP16-"
 		(at 275.59 166.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8770,7 +8770,7 @@
 		)
 		(uuid "b1e525ff-885d-41bb-a1e0-19a6f259fb32")
 	)
-	(label "DI.DI5+"
+	(label "DATA_INP5+"
 		(at 275.59 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8781,7 +8781,7 @@
 		)
 		(uuid "b260b390-5dea-4148-a465-1d0ee5d5c98f")
 	)
-	(label "DI.DI11-"
+	(label "DATA_INP11-"
 		(at 275.59 140.97 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8792,7 +8792,7 @@
 		)
 		(uuid "b3255cbc-0a63-4a35-bfee-70264f60ac51")
 	)
-	(label "DI.DI8+"
+	(label "DATA_INP8+"
 		(at 275.59 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8803,7 +8803,7 @@
 		)
 		(uuid "b74fb84a-e46d-4f84-9ff0-6194fc6e1f1f")
 	)
-	(label "DI.DI1-"
+	(label "DATA_INP1-"
 		(at 275.59 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8847,7 +8847,7 @@
 		)
 		(uuid "bffe6de5-e8e9-4cc2-ac0e-8bda46a00ba1")
 	)
-	(label "DI.DI9+"
+	(label "DATA_INP9+"
 		(at 275.59 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8869,7 +8869,7 @@
 		)
 		(uuid "c17844c7-cfda-4d97-99a9-dcc206d36821")
 	)
-	(label "DI.DI4-"
+	(label "DATA_INP4-"
 		(at 275.59 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8891,7 +8891,7 @@
 		)
 		(uuid "c9d261c4-8388-4364-ae5e-f1202e8d3a72")
 	)
-	(label "DI.DI6+"
+	(label "DATA_INP6+"
 		(at 275.59 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8902,7 +8902,7 @@
 		)
 		(uuid "cbc5c058-d970-4a8b-b4a0-fe9f11d1291d")
 	)
-	(label "DI.DI10-"
+	(label "DATA_INP10-"
 		(at 275.59 135.89 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8968,7 +8968,7 @@
 		)
 		(uuid "de04b248-7baf-458b-af50-55001c156865")
 	)
-	(label "DI.DI15-"
+	(label "DATA_INP15-"
 		(at 275.59 161.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9023,7 +9023,7 @@
 		)
 		(uuid "ec1dec4e-3a8d-42ab-adf2-28c2c738810a")
 	)
-	(label "DI.DI2+"
+	(label "DATA_INP2+"
 		(at 275.59 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9034,7 +9034,7 @@
 		)
 		(uuid "f1474f9c-2824-4637-b954-9a4357b1e668")
 	)
-	(label "DI.DI4+"
+	(label "DATA_INP4+"
 		(at 275.59 102.87 0)
 		(fields_autoplaced yes)
 		(effects

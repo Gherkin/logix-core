@@ -4,10 +4,151 @@
 	(generator_version "8.0")
 	(uuid "b00a5c14-77e9-4757-b912-32bbf856c561")
 	(paper "A3")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(bus_entry
+		(at 99.06 38.1)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbec150-4c75-4578-81b9-2566d01e019a")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 114.3 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0779fc81-3a30-40f1-ba4b-0ec2888d4439")
+	)
 	(bus
 		(pts
-			(xy 99.06 34.29) (xy 99.06 76.2)
+			(xy 99.06 38.1) (xy 99.06 76.2)
 		)
 		(stroke
 			(width 0)
@@ -25,6 +166,36 @@
 		)
 		(uuid "42bd5a0b-fe7e-48f5-b2bd-8bcd69780bd5")
 	)
+	(wire
+		(pts
+			(xy 101.6 40.64) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773ffdec-99ef-488c-ba4f-b06c20d21490")
+	)
+	(bus
+		(pts
+			(xy 99.06 34.29) (xy 99.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea38c7f-d1c8-4a45-947e-890d28941c2c")
+	)
+	(label "DO.DO6+"
+		(at 114.3 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e2af80d-8f92-4b8e-a62b-dd2b660530ea")
+	)
 	(label "DO{DO1+ DO1- DO2+ DO2- DO3+ DO3- DO4+ DO4- DO5+ DO5- DO6+ DO6- DO7+ DO7- DO8+ DO8- DO9+ DO9- DO10+ DO10- DO11+ DO11- DO12+ DO12- DO13+ DO13- DO14+ DO14- DO15+ DO15- DO16+ DO16-}"
 		(at 92.71 76.2 0)
 		(fields_autoplaced yes)
@@ -35,6 +206,76 @@
 			(justify left bottom)
 		)
 		(uuid "c8051ee2-7df9-45cb-a878-75c77fd707bb")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21d19511-9c29-47f8-a3df-509a63c70c86")
+		(property "Reference" "R17"
+			(at 116.84 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 116.84 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 112.522 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a6655b7-b160-4b61-844d-184dd9e208f3")
+		)
+		(pin "1"
+			(uuid "cb686407-a090-4e23-81bb-164eb420299d")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 65.405 126.365)
