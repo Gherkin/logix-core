@@ -1,0 +1,361 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23")
+	(paper "A3")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 241.3 196.85) (xy 287.02 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e41800a-4814-436f-8bd3-4bd2fd3cbeb7")
+	)
+	(bus
+		(pts
+			(xy 241.3 199.39) (xy 287.02 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90223898-ccc3-43a4-9cec-c9a9a8a06262")
+	)
+	(label "DI{DI1+ DI1- DI2+ DI2- DI3+ DI3- DI4+ DI4- DI5+ DI5- DI6+ DI6- DI7+ DI7- DI8+ DI8- DI9+ DI9- DI10+ DI10- DI11+ DI11- DI12+ DI12- DI13+ DI13- DI14+ DI14- DI15+ DI15- DI16+ DI16-}"
+		(at 242.57 199.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f974214-ac5f-4fef-974e-fb4970b67523")
+	)
+	(label "DO{DO1+ DO1- DO2+ DO2- DO3+ DO3- DO4+ DO4- DO5+ DO5- DO6+ DO6- DO7+ DO7- DO8+ DO8-}"
+		(at 242.57 196.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7e0b9c4-3d76-4db1-84a6-3998021af863")
+	)
+	(sheet
+		(at 287.02 187.96)
+		(size 36.83 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f742822-aa07-4329-86b7-d73aec981ffe")
+		(property "Sheetname" "Frontend Connector"
+			(at 287.02 187.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "frontend_conn.kicad_sch"
+			(at 287.02 232.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DI" output
+			(at 287.02 199.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a47874cf-677c-4c3f-9ec5-8eda7aa0ea51")
+		)
+		(pin "DO" input
+			(at 287.02 196.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a63039c-1e65-4c50-b716-e7e07e3c2497")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 133.35)
+		(size 29.21 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49a162d5-d835-40ab-a6ca-50e636ae9e29")
+		(property "Sheetname" "PMIC"
+			(at 123.19 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmic.kicad_sch"
+			(at 123.19 166.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 59.69)
+		(size 31.75 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f9af42b-b5bf-4528-a2ad-ab9fc15669e2")
+		(property "Sheetname" "USB"
+			(at 95.25 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 95.25 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 92.71)
+		(size 34.29 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "706c144e-3e18-4d7e-a371-269bdc22abf6")
+		(property "Sheetname" "JTAG"
+			(at 200.66 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag.kicad_sch"
+			(at 200.66 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 260.35 107.95)
+		(size 30.48 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8022af0a-9fc0-46cd-b8ad-ba9d73562043")
+		(property "Sheetname" "Backend Connector"
+			(at 260.35 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backend_conn.kicad_sch"
+			(at 260.35 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 188.595)
+		(size 57.15 64.77)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "824409ff-e0aa-4944-ad80-228eadb659f9")
+		(property "Sheetname" "FPGA"
+			(at 184.15 187.8834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 184.15 253.9496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DO" output
+			(at 241.3 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "850aedfb-ff92-4072-848b-59a37f007660")
+		)
+		(pin "DI" input
+			(at 241.3 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc155a64-71a5-4533-86cc-4d3393e7ba81")
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 182.88)
+		(size 34.29 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b85739df-cd60-41d1-92dc-c1028520afa1")
+		(property "Sheetname" "SPI Flash"
+			(at 54.61 182.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "spi_flash.kicad_sch"
+			(at 54.61 225.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -124,8 +124,8 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -461,7 +461,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.0762,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -645,6 +645,10 @@
     [
       "b85739df-cd60-41d1-92dc-c1028520afa1",
       "SPI Flash"
+    ],
+    [
+      "ab2b6d75-2b5d-47d9-b70e-fad58fb7011e",
+      "DDR3"
     ]
   ],
   "text_variables": {}
