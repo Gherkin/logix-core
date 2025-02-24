@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b00a5c14-77e9-4757-b912-32bbf856c561")
 	(paper "A3")
 	(lib_symbols)
@@ -207,7 +207,6 @@
 	)
 	(label "DDR3_ODT"
 		(at 237.49 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -218,7 +217,6 @@
 	)
 	(label "DDR3_CAS#"
 		(at 237.49 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -229,7 +227,6 @@
 	)
 	(label "DDR3_BLOCK_ADDR[0..14]"
 		(at 237.49 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -240,7 +237,6 @@
 	)
 	(label "DDR3_UDM"
 		(at 237.49 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -251,7 +247,6 @@
 	)
 	(label "DDR3_CLK+"
 		(at 237.49 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -262,7 +257,6 @@
 	)
 	(label "DDR3_UDQS-"
 		(at 237.49 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -273,7 +267,6 @@
 	)
 	(label "DDR3_UDQS+"
 		(at 237.49 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -284,7 +277,6 @@
 	)
 	(label "DDR3_WE#"
 		(at 237.49 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -295,7 +287,6 @@
 	)
 	(label "DDR3_LDQS-"
 		(at 237.49 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -306,7 +297,6 @@
 	)
 	(label "DDR3_LDQS+"
 		(at 237.49 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -317,7 +307,6 @@
 	)
 	(label "DDR3_LDM"
 		(at 237.49 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -328,7 +317,6 @@
 	)
 	(label "DO{DO1+ DO1- DO2+ DO2- DO3+ DO3- DO4+ DO4- DO5+ DO5- DO6+ DO6- DO7+ DO7- DO8+ DO8- DO9+ DO9- DO10+ DO10- DO11+ DO11- DO12+ DO12- DO13+ DO13- DO14+ DO14- DO15+ DO15- DO16+ DO16-}"
 		(at 92.71 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -339,7 +327,6 @@
 	)
 	(label "DDR3_ADDR[0..14]"
 		(at 237.49 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -350,7 +337,6 @@
 	)
 	(label "DDR3_RESET#"
 		(at 237.49 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -361,7 +347,6 @@
 	)
 	(label "DDR3_RAS#"
 		(at 237.49 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -372,7 +357,6 @@
 	)
 	(label "DDR3_CLK-"
 		(at 237.49 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -383,7 +367,6 @@
 	)
 	(label "DDR3_DQ[0..15]"
 		(at 252.73 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -394,7 +377,6 @@
 	)
 	(label "DDR3_CS#"
 		(at 237.49 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -405,7 +387,6 @@
 	)
 	(label "DDR3_CLK_EN"
 		(at 237.49 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -417,7 +398,6 @@
 	(hierarchical_label "DDR3_RESET#"
 		(shape bidirectional)
 		(at 236.22 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -429,7 +409,6 @@
 	(hierarchical_label "DDR3_LDQS-"
 		(shape bidirectional)
 		(at 237.49 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -441,7 +420,6 @@
 	(hierarchical_label "DI"
 		(shape input)
 		(at 116.84 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -453,7 +431,6 @@
 	(hierarchical_label "DDR3_DQ"
 		(shape bidirectional)
 		(at 236.22 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -465,7 +442,6 @@
 	(hierarchical_label "DDR3_CLK+"
 		(shape bidirectional)
 		(at 237.49 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -477,7 +453,6 @@
 	(hierarchical_label "DDR3_CLK_EN"
 		(shape bidirectional)
 		(at 237.49 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -489,7 +464,6 @@
 	(hierarchical_label "DDR3_LDQS+"
 		(shape bidirectional)
 		(at 237.49 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -501,7 +475,6 @@
 	(hierarchical_label "DDR3_UDQS-"
 		(shape bidirectional)
 		(at 237.49 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -513,7 +486,6 @@
 	(hierarchical_label "DDR3_CAS#"
 		(shape bidirectional)
 		(at 236.22 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -525,7 +497,6 @@
 	(hierarchical_label "DDR3_LDM"
 		(shape bidirectional)
 		(at 237.49 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -537,7 +508,6 @@
 	(hierarchical_label "DDR3_UDM"
 		(shape bidirectional)
 		(at 237.49 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -549,7 +519,6 @@
 	(hierarchical_label "DO"
 		(shape output)
 		(at 116.84 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -561,7 +530,6 @@
 	(hierarchical_label "DDR3_BLOCK_ADDR"
 		(shape bidirectional)
 		(at 236.22 133.35 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -573,7 +541,6 @@
 	(hierarchical_label "DDR3_ADDR"
 		(shape bidirectional)
 		(at 236.22 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -585,7 +552,6 @@
 	(hierarchical_label "DDR3_WE#"
 		(shape bidirectional)
 		(at 236.22 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -597,7 +563,6 @@
 	(hierarchical_label "DDR3_CS#"
 		(shape bidirectional)
 		(at 236.22 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -609,7 +574,6 @@
 	(hierarchical_label "DDR3_ODT"
 		(shape bidirectional)
 		(at 237.49 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -621,7 +585,6 @@
 	(hierarchical_label "DDR3_CLK-"
 		(shape bidirectional)
 		(at 237.49 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -633,7 +596,6 @@
 	(hierarchical_label "DDR3_RAS#"
 		(shape bidirectional)
 		(at 236.22 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -645,7 +607,6 @@
 	(hierarchical_label "DDR3_UDQS+"
 		(shape bidirectional)
 		(at 237.49 156.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -657,6 +618,10 @@
 	(sheet
 		(at 65.405 126.365)
 		(size 31.75 42.545)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -695,6 +660,10 @@
 	(sheet
 		(at 58.42 62.23)
 		(size 33.02 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -724,33 +693,33 @@
 		)
 		(pin "FLASH_SPI" bidirectional
 			(at 91.44 85.725 0)
+			(uuid "f6448029-3752-4ee0-9ff4-52e916196052")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f6448029-3752-4ee0-9ff4-52e916196052")
 		)
 		(pin "DO" output
 			(at 91.44 76.2 0)
+			(uuid "254e53a5-db75-4c4b-99bd-a3e79e101dc8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "254e53a5-db75-4c4b-99bd-a3e79e101dc8")
 		)
 		(pin "DI" output
 			(at 91.44 78.74 0)
+			(uuid "6ccd6d04-6610-45e0-8775-e8096589c02e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6ccd6d04-6610-45e0-8775-e8096589c02e")
 		)
 		(instances
 			(project "logix-core"
@@ -763,6 +732,10 @@
 	(sheet
 		(at 312.42 166.37)
 		(size 33.655 40.005)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -801,6 +774,10 @@
 	(sheet
 		(at 262.89 113.03)
 		(size 34.925 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -830,183 +807,183 @@
 		)
 		(pin "DDR3_DQ" bidirectional
 			(at 262.89 115.57 180)
+			(uuid "b52c6b0c-21bd-43a0-807f-3f5a13ba3184")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b52c6b0c-21bd-43a0-807f-3f5a13ba3184")
 		)
 		(pin "DDR3_ADDR" bidirectional
 			(at 262.89 118.11 180)
+			(uuid "8470ff9d-7778-40ea-aaec-25c3314d2553")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8470ff9d-7778-40ea-aaec-25c3314d2553")
 		)
 		(pin "DDR3_BLOCK_ADDR" bidirectional
 			(at 262.89 133.35 180)
+			(uuid "36584508-a18b-43f6-b4fe-76e8842ceca6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "36584508-a18b-43f6-b4fe-76e8842ceca6")
 		)
 		(pin "DDR3_CAS#" bidirectional
 			(at 262.89 120.65 180)
+			(uuid "08e3f0ed-3f18-4a94-a7be-5333335f0e7e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "08e3f0ed-3f18-4a94-a7be-5333335f0e7e")
 		)
 		(pin "DDR3_CS#" bidirectional
 			(at 262.89 123.19 180)
+			(uuid "0c54d7bf-22c7-4977-bb7e-70d281e3ff69")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0c54d7bf-22c7-4977-bb7e-70d281e3ff69")
 		)
 		(pin "DDR3_RAS#" bidirectional
 			(at 262.89 125.73 180)
+			(uuid "06ad7bbe-575f-455a-8182-fa83eda7e87f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "06ad7bbe-575f-455a-8182-fa83eda7e87f")
 		)
 		(pin "DDR3_WE#" bidirectional
 			(at 262.89 130.81 180)
+			(uuid "79cf9086-7185-40d2-a9e7-a5453347f5bb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "79cf9086-7185-40d2-a9e7-a5453347f5bb")
 		)
 		(pin "DDR3_CLK+" bidirectional
 			(at 262.89 135.89 180)
+			(uuid "7c2cb7c0-46ff-41e4-89c2-b4c0496a6d2c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7c2cb7c0-46ff-41e4-89c2-b4c0496a6d2c")
 		)
 		(pin "DDR3_CLK-" bidirectional
 			(at 262.89 138.43 180)
+			(uuid "78b929b3-1525-405b-a603-f5d2c77142ef")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "78b929b3-1525-405b-a603-f5d2c77142ef")
 		)
 		(pin "DDR3_LDM" bidirectional
 			(at 262.89 143.51 180)
+			(uuid "31c2189d-0731-426d-bec2-d8193381a6e6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "31c2189d-0731-426d-bec2-d8193381a6e6")
 		)
 		(pin "DDR3_UDM" bidirectional
 			(at 262.89 148.59 180)
+			(uuid "35758c92-a232-4d33-85eb-41c7c09bfdb9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "35758c92-a232-4d33-85eb-41c7c09bfdb9")
 		)
 		(pin "DDR3_ODT" bidirectional
 			(at 262.89 146.05 180)
+			(uuid "d8c10de7-7466-47bc-951a-242b56bf63a2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d8c10de7-7466-47bc-951a-242b56bf63a2")
 		)
 		(pin "DDR3_LDQS-" bidirectional
 			(at 262.89 153.67 180)
+			(uuid "1897c39b-fff0-4ab4-8273-53c497f15f01")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1897c39b-fff0-4ab4-8273-53c497f15f01")
 		)
 		(pin "DDR3_CLK_EN" bidirectional
 			(at 262.89 140.97 180)
+			(uuid "c579076d-c46f-4cc7-b40d-ec761564638f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c579076d-c46f-4cc7-b40d-ec761564638f")
 		)
 		(pin "DDR3_LDQS+" bidirectional
 			(at 262.89 151.13 180)
+			(uuid "1344e702-7907-4e27-95da-ccf68f7759e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1344e702-7907-4e27-95da-ccf68f7759e0")
 		)
 		(pin "DDR3_UDQS+" bidirectional
 			(at 262.89 156.21 180)
+			(uuid "879b3507-82d9-4444-a772-a582a052143d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "879b3507-82d9-4444-a772-a582a052143d")
 		)
 		(pin "DDR3_UDQS-" bidirectional
 			(at 262.89 158.75 180)
+			(uuid "136f687c-6535-44ed-9e53-c6dc911dd30d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "136f687c-6535-44ed-9e53-c6dc911dd30d")
 		)
 		(pin "DDR3_RESET#" bidirectional
 			(at 262.89 128.27 180)
+			(uuid "87188f99-f6e5-4a85-b7d1-229534bc432c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "87188f99-f6e5-4a85-b7d1-229534bc432c")
 		)
 		(instances
 			(project "logix-core"

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23")
 	(paper "A3")
 	(lib_symbols)
@@ -207,7 +207,6 @@
 	)
 	(label "DDR3_UDQS-"
 		(at 218.44 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -218,7 +217,6 @@
 	)
 	(label "DDR3_CLK-"
 		(at 218.44 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -229,7 +227,6 @@
 	)
 	(label "DDR3_BLOCK_ADDR[0..14]"
 		(at 208.28 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -240,7 +237,6 @@
 	)
 	(label "DDR3_LDQS-"
 		(at 218.44 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -251,7 +247,6 @@
 	)
 	(label "DDR3_ODT"
 		(at 189.23 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -262,7 +257,6 @@
 	)
 	(label "DDR3_LDQS+"
 		(at 218.44 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -273,7 +267,6 @@
 	)
 	(label "DDR3_CAS#"
 		(at 189.23 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -284,7 +277,6 @@
 	)
 	(label "DDR3_ADDR[0..14]"
 		(at 215.9 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -295,7 +287,6 @@
 	)
 	(label "DDR3_UDM"
 		(at 218.44 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -306,7 +297,6 @@
 	)
 	(label "DDR3_CLK_EN"
 		(at 189.23 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -317,7 +307,6 @@
 	)
 	(label "DDR3_DQ[0..15]"
 		(at 233.68 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -328,7 +317,6 @@
 	)
 	(label "DI{DI1+ DI1- DI2+ DI2- DI3+ DI3- DI4+ DI4- DI5+ DI5- DI6+ DI6- DI7+ DI7- DI8+ DI8- DI9+ DI9- DI10+ DI10- DI11+ DI11- DI12+ DI12- DI13+ DI13- DI14+ DI14- DI15+ DI15- DI16+ DI16-}"
 		(at 189.23 126.365 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -339,7 +327,6 @@
 	)
 	(label "DDR3_CS#"
 		(at 189.23 176.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -350,7 +337,6 @@
 	)
 	(label "DDR3_RAS#"
 		(at 218.44 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -361,7 +347,6 @@
 	)
 	(label "DDR3_RESET#"
 		(at 189.23 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -372,7 +357,6 @@
 	)
 	(label "DDR3_UDQS+"
 		(at 218.44 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -383,7 +367,6 @@
 	)
 	(label "DO{DO1+ DO1- DO2+ DO2- DO3+ DO3- DO4+ DO4- DO5+ DO5- DO6+ DO6- DO7+ DO7- DO8+ DO8-}"
 		(at 189.23 123.825 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -394,7 +377,6 @@
 	)
 	(label "DDR3_WE#"
 		(at 189.23 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -405,7 +387,6 @@
 	)
 	(label "DDR3_LDM"
 		(at 218.44 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -416,7 +397,6 @@
 	)
 	(label "DDR3_CLK+"
 		(at 189.23 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -425,9 +405,59 @@
 		)
 		(uuid "ffa5a98f-2187-493c-9cfd-e211a0960389")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 196.85 146.05) (xy 196.85 156.21) (xy 201.93 156.21) (xy 201.93 146.05)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 45c07004-371a-416e-bf7c-1c072163e94d)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfb3e182-3c4f-4b8d-afdc-e2943396807d")
+		(property "Netclass" "100 ohm diff"
+			(at 197.5485 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -34.29 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 233.68 114.935)
 		(size 36.83 19.685)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -457,23 +487,23 @@
 		)
 		(pin "DI" output
 			(at 233.68 126.365 180)
+			(uuid "a47874cf-677c-4c3f-9ec5-8eda7aa0ea51")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a47874cf-677c-4c3f-9ec5-8eda7aa0ea51")
 		)
 		(pin "DO" input
 			(at 233.68 123.825 180)
+			(uuid "8a63039c-1e65-4c50-b716-e7e07e3c2497")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8a63039c-1e65-4c50-b716-e7e07e3c2497")
 		)
 		(instances
 			(project "logix-core"
@@ -486,6 +516,10 @@
 	(sheet
 		(at 25.4 86.36)
 		(size 29.21 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -524,6 +558,10 @@
 	(sheet
 		(at 19.05 19.05)
 		(size 31.75 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -562,6 +600,10 @@
 	(sheet
 		(at 303.53 26.67)
 		(size 34.29 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -600,6 +642,10 @@
 	(sheet
 		(at 363.22 41.91)
 		(size 30.48 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -638,6 +684,10 @@
 	(sheet
 		(at 130.81 115.57)
 		(size 58.42 82.55)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -667,203 +717,203 @@
 		)
 		(pin "DO" output
 			(at 189.23 123.825 0)
+			(uuid "850aedfb-ff92-4072-848b-59a37f007660")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "850aedfb-ff92-4072-848b-59a37f007660")
 		)
 		(pin "DI" input
 			(at 189.23 126.365 0)
+			(uuid "bc155a64-71a5-4533-86cc-4d3393e7ba81")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bc155a64-71a5-4533-86cc-4d3393e7ba81")
 		)
 		(pin "DDR3_RAS#" bidirectional
 			(at 189.23 171.45 0)
+			(uuid "ca6e4a96-be06-4f77-add6-ef9682eb614c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ca6e4a96-be06-4f77-add6-ef9682eb614c")
 		)
 		(pin "DDR3_CAS#" bidirectional
 			(at 189.23 173.99 0)
+			(uuid "8547257c-6cd5-4494-8a41-62010ee73b3a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8547257c-6cd5-4494-8a41-62010ee73b3a")
 		)
 		(pin "DDR3_CS#" bidirectional
 			(at 189.23 176.53 0)
+			(uuid "ecf8ee6d-7d54-44d6-9c10-1dd127c1fdd7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ecf8ee6d-7d54-44d6-9c10-1dd127c1fdd7")
 		)
 		(pin "DDR3_ADDR" bidirectional
 			(at 189.23 165.1 0)
+			(uuid "5bc32943-1125-42d6-b867-3bed65cf8858")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5bc32943-1125-42d6-b867-3bed65cf8858")
 		)
 		(pin "DDR3_DQ" bidirectional
 			(at 189.23 143.51 0)
+			(uuid "ceaa0fe8-c584-446a-aeba-61c1c713a030")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ceaa0fe8-c584-446a-aeba-61c1c713a030")
 		)
 		(pin "DDR3_BLOCK_ADDR" bidirectional
 			(at 189.23 167.64 0)
+			(uuid "0c0959a9-ff5d-46c3-aa9d-0a33946261a9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0c0959a9-ff5d-46c3-aa9d-0a33946261a9")
 		)
 		(pin "DDR3_WE#" bidirectional
 			(at 189.23 179.07 0)
+			(uuid "765df38c-ff20-400b-bac6-1b1ab34b515f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "765df38c-ff20-400b-bac6-1b1ab34b515f")
 		)
 		(pin "DDR3_RESET#" bidirectional
 			(at 189.23 195.58 0)
+			(uuid "c84d7412-92ac-423a-8a70-8676c3e77d80")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c84d7412-92ac-423a-8a70-8676c3e77d80")
 		)
 		(pin "DDR3_CLK+" bidirectional
 			(at 189.23 186.69 0)
+			(uuid "4ee890ae-e341-47cb-bb88-4a6da110ea4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4ee890ae-e341-47cb-bb88-4a6da110ea4e")
 		)
 		(pin "DDR3_CLK-" bidirectional
 			(at 189.23 189.23 0)
+			(uuid "888afd7f-557a-4c6c-b5b7-6327103888b9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "888afd7f-557a-4c6c-b5b7-6327103888b9")
 		)
 		(pin "DDR3_LDM" bidirectional
 			(at 189.23 158.75 0)
+			(uuid "8f58c31d-28ba-4976-bd93-84902a2bf207")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8f58c31d-28ba-4976-bd93-84902a2bf207")
 		)
 		(pin "DDR3_CLK_EN" bidirectional
 			(at 189.23 191.77 0)
+			(uuid "4f38ef46-abc7-4574-ab2f-8fa35d980f92")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "4f38ef46-abc7-4574-ab2f-8fa35d980f92")
 		)
 		(pin "DDR3_UDQS-" bidirectional
 			(at 189.23 154.94 0)
+			(uuid "fd5f1f90-9435-47bd-b34c-23b8b9125112")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "fd5f1f90-9435-47bd-b34c-23b8b9125112")
 		)
 		(pin "DDR3_ODT" bidirectional
 			(at 189.23 182.88 0)
+			(uuid "3b6605ec-42d6-4a8d-9ed3-59d35a5d23f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3b6605ec-42d6-4a8d-9ed3-59d35a5d23f8")
 		)
 		(pin "DDR3_LDQS-" bidirectional
 			(at 189.23 149.86 0)
+			(uuid "1c03f7c8-57a1-41a3-8bb0-581425c921d9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1c03f7c8-57a1-41a3-8bb0-581425c921d9")
 		)
 		(pin "DDR3_LDQS+" bidirectional
 			(at 189.23 147.32 0)
+			(uuid "b2141cd9-b479-4b84-bda9-56a59cf2057d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b2141cd9-b479-4b84-bda9-56a59cf2057d")
 		)
 		(pin "DDR3_UDQS+" bidirectional
 			(at 189.23 152.4 0)
+			(uuid "f1a22e6c-672d-4aa7-9811-fcc59eb4fa21")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f1a22e6c-672d-4aa7-9811-fcc59eb4fa21")
 		)
 		(pin "DDR3_UDM" bidirectional
 			(at 189.23 161.29 0)
+			(uuid "07ad261d-b657-485c-8e41-48203e8afc66")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "07ad261d-b657-485c-8e41-48203e8afc66")
 		)
 		(instances
 			(project "logix-core"
@@ -876,6 +926,10 @@
 	(sheet
 		(at 233.68 140.97)
 		(size 21.59 57.15)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -905,183 +959,183 @@
 		)
 		(pin "CLK+" bidirectional
 			(at 233.68 186.69 180)
+			(uuid "bca0bd26-b714-4a80-ad8b-953dfd9b7f57")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bca0bd26-b714-4a80-ad8b-953dfd9b7f57")
 		)
 		(pin "CLK-" bidirectional
 			(at 233.68 189.23 180)
+			(uuid "e5b51b3e-eb27-4526-a057-9bc71d7c47d6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e5b51b3e-eb27-4526-a057-9bc71d7c47d6")
 		)
 		(pin "CLK_EN" bidirectional
 			(at 233.68 191.77 180)
+			(uuid "6c7b8dd3-bf0b-44d8-aa27-18e927ba9ad9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6c7b8dd3-bf0b-44d8-aa27-18e927ba9ad9")
 		)
 		(pin "LDQS-" bidirectional
 			(at 233.68 149.86 180)
+			(uuid "1407f8e9-da02-449e-a175-d9612fd82f25")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1407f8e9-da02-449e-a175-d9612fd82f25")
 		)
 		(pin "LDQS+" bidirectional
 			(at 233.68 147.32 180)
+			(uuid "ad5bd36f-50c9-40f6-a3b4-a1abcccf3709")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ad5bd36f-50c9-40f6-a3b4-a1abcccf3709")
 		)
 		(pin "UDQS-" bidirectional
 			(at 233.68 154.94 180)
+			(uuid "7952857a-22fd-409b-9448-423a619cce39")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7952857a-22fd-409b-9448-423a619cce39")
 		)
 		(pin "UDQS+" bidirectional
 			(at 233.68 152.4 180)
+			(uuid "343624fb-1178-47e3-ad3b-2b8ab94f1a2e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "343624fb-1178-47e3-ad3b-2b8ab94f1a2e")
 		)
 		(pin "UDM" bidirectional
 			(at 233.68 161.29 180)
+			(uuid "57a121fe-8866-46f3-b8c4-f8fc5011718c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "57a121fe-8866-46f3-b8c4-f8fc5011718c")
 		)
 		(pin "ODT" bidirectional
 			(at 233.68 182.88 180)
+			(uuid "f0623787-67e1-4b8f-963a-5485a5088a52")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f0623787-67e1-4b8f-963a-5485a5088a52")
 		)
 		(pin "LDM" bidirectional
 			(at 233.68 158.75 180)
+			(uuid "5e6b8455-6db7-44fc-bd56-ee50557b194d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5e6b8455-6db7-44fc-bd56-ee50557b194d")
 		)
 		(pin "BLOCK_ADDR" bidirectional
 			(at 233.68 167.64 180)
+			(uuid "fdec4cb2-06a4-4148-b7a1-9871fb6fb2a1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "fdec4cb2-06a4-4148-b7a1-9871fb6fb2a1")
 		)
 		(pin "ADDR" bidirectional
 			(at 233.68 165.1 180)
+			(uuid "0f4b2c32-b5cf-4538-9121-3c6866041db7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0f4b2c32-b5cf-4538-9121-3c6866041db7")
 		)
 		(pin "CAS#" bidirectional
 			(at 233.68 173.99 180)
+			(uuid "6f79befe-8ce4-4875-8b30-1c2802c78301")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "6f79befe-8ce4-4875-8b30-1c2802c78301")
 		)
 		(pin "CS#" bidirectional
 			(at 233.68 176.53 180)
+			(uuid "3451b965-f5d4-4036-bbcd-939fa78a592c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3451b965-f5d4-4036-bbcd-939fa78a592c")
 		)
 		(pin "RAS#" bidirectional
 			(at 233.68 171.45 180)
+			(uuid "bd6f94fc-cef0-4260-b4d3-6b696e1b4df9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bd6f94fc-cef0-4260-b4d3-6b696e1b4df9")
 		)
 		(pin "WE#" bidirectional
 			(at 233.68 179.07 180)
+			(uuid "21477a59-a0c9-4c9d-95d0-41d1c00ea837")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "21477a59-a0c9-4c9d-95d0-41d1c00ea837")
 		)
 		(pin "DQ" bidirectional
 			(at 233.68 143.51 180)
+			(uuid "4b51ea23-28cd-494d-affa-66f24e92dbe0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4b51ea23-28cd-494d-affa-66f24e92dbe0")
 		)
 		(pin "RESET#" bidirectional
 			(at 233.68 195.58 180)
+			(uuid "32b4be0e-2c25-4176-907a-63924d83b5d6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "32b4be0e-2c25-4176-907a-63924d83b5d6")
 		)
 		(instances
 			(project "logix-core"
@@ -1094,6 +1148,10 @@
 	(sheet
 		(at 22.86 142.24)
 		(size 34.29 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1134,4 +1192,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

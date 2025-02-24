@@ -1,0 +1,30 @@
+(version 1)
+
+(rule "50ohm single outer"
+	(layer outer)
+	(condition "A.NetClass == '50 ohm single'")
+	(constraint track_width (opt 0.1565mm))
+	(constraint clearance (min 0.1mm) (max 0.1mm))
+)
+
+(rule "50ohm single inner"
+	(layer inner)
+	(condition "A.NetClass == '50 ohm single'")
+	(constraint track_width (opt 0.1425mm))
+	(constraint clearance (min 0.1mm) (max 0.1mm))
+)
+(rule "100ohm diff outer"
+	(layer outer)
+	(condition "A.NetClass == '100 ohm diff*'")
+	(constraint track_width (min 0.120mm) (opt 0.1232mm) (max 0.125mm))
+	(constraint diff_pair_gap (min 0.2mm) (opt 0.2mm) (max 0.2mm))
+	(constraint clearance (min 0.1mm) (opt 0.1mm) (max 0.1mm))
+)
+
+(rule "100ohm diff inner"
+	(layer inner)
+	(condition "A.NetClass == '100 ohm diff*'")
+	(constraint track_width (min 0.110mm) (opt 0.1120mm) (max 0.115mm))
+	(constraint diff_pair_gap (min 0.2mm) (opt 0.2mm) (max 0.2mm))
+	(constraint clearance (min 0.1mm) (opt 0.1mm) (max 0.1mm))
+)
