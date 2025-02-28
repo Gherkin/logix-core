@@ -202,23 +202,23 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 0.2
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.2
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.2
         }
       },
       "via_dimensions": [
@@ -505,11 +505,41 @@
         "microvia_drill": 10.0,
         "name": "100 ohm diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 10.0,
         "via_diameter": 10.0,
         "via_drill": 10.0
+      },
+      {
+        "name": "DDR3_ADDR",
+        "pcb_color": "rgb(255, 150, 251)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR3_BLOCK_ADDR",
+        "pcb_color": "rgb(254, 255, 75)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR3_CLOCKS",
+        "pcb_color": "rgb(255, 141, 233)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR3_CTRL",
+        "pcb_color": "rgb(233, 164, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR3_DQ",
+        "pcb_color": "rgb(83, 255, 56)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -517,17 +547,200 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/DDR3_ADDR0": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR1": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR10": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR11": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR12": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR13": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR14": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR2": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR3": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR4": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR5": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR6": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR7": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR8": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR9": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_ADDR[0..14]": [
+        "DDR3_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR0": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR1": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR10": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR11": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR12": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR13": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR14": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR2": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR3": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR4": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR5": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR6": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR7": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR8": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR9": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_BLOCK_ADDR[0..14]": [
+        "DDR3_BLOCK_ADDR"
+      ],
+      "/DDR3_CAS#": [
+        "DDR3_CTRL"
+      ],
+      "/DDR3_CLK+": [
+        "100 ohm diff",
+        "DDR3_CLOCKS"
+      ],
+      "/DDR3_CLK-": [
+        "100 ohm diff",
+        "DDR3_CLOCKS"
+      ],
+      "/DDR3_CLK_EN": [
+        "DDR3_CTRL"
+      ],
+      "/DDR3_CS#": [
+        "DDR3_CTRL"
+      ],
+      "/DDR3_DQ0": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ1": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ10": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ11": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ12": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ13": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ14": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ15": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ2": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ3": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ4": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ5": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ6": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ7": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ8": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ9": [
+        "DDR3_DQ"
+      ],
+      "/DDR3_LDM": [
+        "DDR3_CTRL"
+      ],
       "/DDR3_LDQS+": [
-        "100 ohm diff"
+        "100 ohm diff",
+        "DDR3_CLOCKS"
       ],
       "/DDR3_LDQS-": [
-        "100 ohm diff"
+        "100 ohm diff",
+        "DDR3_CLOCKS"
+      ],
+      "/DDR3_ODT": [
+        "DDR3_CTRL"
+      ],
+      "/DDR3_RAS#": [
+        "DDR3_CTRL"
+      ],
+      "/DDR3_RESET#": [
+        "DDR3_CTRL"
+      ],
+      "/DDR3_UDM": [
+        "DDR3_CTRL"
       ],
       "/DDR3_UDQS+": [
-        "100 ohm diff"
+        "100 ohm diff",
+        "DDR3_CLOCKS"
       ],
       "/DDR3_UDQS-": [
-        "100 ohm diff"
+        "100 ohm diff",
+        "DDR3_CLOCKS"
+      ],
+      "/DDR3_WE#": [
+        "DDR3_CTRL"
       ]
     },
     "netclass_patterns": []

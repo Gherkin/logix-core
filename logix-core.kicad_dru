@@ -15,7 +15,7 @@
 )
 (rule "100ohm diff outer"
 	(layer outer)
-	(condition "A.NetClass == '100 ohm diff*'")
+	(condition "A.hasNetclass('100 ohm diff')")
 	(constraint track_width (min 0.120mm) (opt 0.1232mm) (max 0.125mm))
 	(constraint diff_pair_gap (min 0.2mm) (opt 0.2mm) (max 0.2mm))
 	(constraint clearance (min 0.1mm) (opt 0.1mm) (max 0.1mm))
@@ -23,8 +23,28 @@
 
 (rule "100ohm diff inner"
 	(layer inner)
-	(condition "A.NetClass == '100 ohm diff*'")
+	(condition "A.hasNetclass('100 ohm diff')")
 	(constraint track_width (min 0.110mm) (opt 0.1120mm) (max 0.115mm))
-	(constraint diff_pair_gap (min 0.2mm) (opt 0.2mm) (max 0.2mm))
+	(constraint diff_pair_gap (min 0.1mm) (opt 0.2mm) (max 0.3mm))
 	(constraint clearance (min 0.1mm) (opt 0.1mm) (max 0.1mm))
+)
+
+(rule "ddr3 clk len match"
+	(condition "A.hasNetclass('DDR_CLOCKS')")
+	(constraint skew (max 5mil))
+)
+
+(rule "ddr3 data len match"
+	(condition "A.hasNetclass('DDR_DATA')")
+	(constraint skew (max 25mil))
+)
+
+(rule "ddr3 ctrl len match"
+	(condition "A.hasNetclass('DDR_CTRL')")
+	(constraint skew (max 25mil))
+)
+
+(rule "ddr3 addr len match"
+	(condition "A.hasNetclass('DDR_ADDR') || A.hasNetclass('DDR_BLOCK_ADDR') ")
+	(constraint skew (max 25mil))
 )

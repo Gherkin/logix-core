@@ -5,12 +5,6 @@
 	(uuid "cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23")
 	(paper "A3")
 	(lib_symbols)
-	(junction
-		(at 191.77 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3db1573f-e85a-47f6-a19e-b377120c1a84")
-	)
 	(wire
 		(pts
 			(xy 189.23 186.69) (xy 233.68 186.69)
@@ -20,16 +14,6 @@
 			(type default)
 		)
 		(uuid "04b9115b-5913-436c-a62d-3540e6fce278")
-	)
-	(bus
-		(pts
-			(xy 191.77 143.51) (xy 189.23 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "142b1b64-9eb2-43a8-8b07-7c119bdd736b")
 	)
 	(wire
 		(pts
@@ -43,7 +27,7 @@
 	)
 	(bus
 		(pts
-			(xy 191.77 143.51) (xy 233.68 143.51)
+			(xy 189.23 143.51) (xy 233.68 143.51)
 		)
 		(stroke
 			(width 0)
@@ -150,16 +134,6 @@
 			(type default)
 		)
 		(uuid "ad093b34-e997-451f-9827-ab99a4c640c4")
-	)
-	(bus
-		(pts
-			(xy 191.77 142.24) (xy 191.77 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc2b6d48-605d-4efb-958a-57458f567f26")
 	)
 	(wire
 		(pts
@@ -544,37 +518,6 @@
 		)
 		(property "Component Class" ""
 			(at -68.58 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 7)
-		(shape round)
-		(at 191.77 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a41ae9b5-0945-4cbb-9189-b4f4e0256f7d")
-		(property "Netclass" "DDR3_DQ"
-			(at 192.4685 135.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -152.4 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
