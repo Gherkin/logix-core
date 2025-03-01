@@ -505,40 +505,46 @@
         "microvia_drill": 10.0,
         "name": "100 ohm diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 10.0,
         "via_diameter": 10.0,
         "via_drill": 10.0
       },
       {
+        "name": "50ohm single",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "DDR3_ADDR",
-        "pcb_color": "rgb(255, 150, 251)",
-        "priority": 3,
+        "pcb_color": "rgb(132, 195, 255)",
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_BLOCK_ADDR",
         "pcb_color": "rgb(254, 255, 75)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_CLOCKS",
-        "pcb_color": "rgb(255, 141, 233)",
-        "priority": 1,
+        "pcb_color": "rgb(255, 100, 83)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_CTRL",
         "pcb_color": "rgb(233, 164, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_DQ",
-        "pcb_color": "rgb(83, 255, 56)",
-        "priority": 4,
+        "pcb_color": "rgb(142, 255, 115)",
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -661,51 +667,71 @@
         "DDR3_CTRL"
       ],
       "/DDR3_DQ0": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ1": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ10": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ11": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ12": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ13": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ14": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ15": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ2": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ3": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ4": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ5": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ6": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ7": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ8": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_DQ9": [
+        "50ohm single",
+        "DDR3_DQ"
+      ],
+      "/DDR3_DQ[0..15]": [
+        "50ohm single",
         "DDR3_DQ"
       ],
       "/DDR3_LDM": [

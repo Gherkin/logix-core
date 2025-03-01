@@ -434,21 +434,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 203.2 184.15) (xy 203.2 190.5) (xy 226.06 190.5) (xy 226.06 184.15)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid bd9ec22f-9778-44c4-867d-22c119e2789b)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 191.77 146.05) (xy 191.77 156.21) (xy 214.63 156.21) (xy 214.63 146.05)
 			)
 			(stroke
@@ -458,7 +443,22 @@
 			(fill
 				(type none)
 			)
-			(uuid d477ec3c-6f9d-4da8-9f83-d40ee0b1e6c1)
+			(uuid 19741b9f-ee9b-4e45-af23-abc671a4ba92)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 203.2 184.15) (xy 203.2 190.5) (xy 226.06 190.5) (xy 226.06 184.15)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a9be356c-c5e2-4bb7-88ba-d68d706adbc5)
 		)
 	)
 	(netclass_flag ""
@@ -544,6 +544,37 @@
 		)
 		(property "Component Class" ""
 			(at -68.58 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 7)
+		(shape round)
+		(at 204.47 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "862d75d1-8fec-4bd1-808e-9385e33ebe93")
+		(property "Netclass" "50ohm single"
+			(at 205.1685 136.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -139.7 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
