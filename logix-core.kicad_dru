@@ -11,7 +11,7 @@
 	(layer inner)
 	(condition "A.hasNetclass('50ohm single')")
 	(constraint track_width (opt 0.1425mm))
-	(constraint clearance (min 0.1mm) (max 0.1mm))
+	(constraint clearance (min 0.4275mm))
 )
 (rule "100ohm diff outer"
 	(layer outer)
@@ -34,10 +34,10 @@
 	(constraint skew (max 5mil))
 )
 
-(rule "ddr3 data len match"
+(rule "ddr3 data"
 	(condition "A.hasNetclass('DDR3_DQ')")
 	(constraint skew (max 50mil))
-	(constraint length (min 23.5mm) (opt 24mm) (max 24.5mm))
+	(constraint length (min 24.5mm) (opt 25mm) (max 25.5mm))
 )
 
 (rule "ddr3 ctrl len match"
@@ -48,4 +48,9 @@
 (rule "ddr3 addr len match"
 	(condition "A.hasNetclass('DDR3_ADDR') || A.hasNetclass('DDR3_BLOCK_ADDR') ")
 	(constraint skew (max 25mil))
+)
+
+(rule "ddr3 bga clearance"
+	(condition "A.enclosedByArea('DDR3_BGA')")
+	(constraint clearance (min 0.1mm))
 )
