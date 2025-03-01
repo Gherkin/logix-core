@@ -11,13 +11,21 @@
 	(layer inner)
 	(condition "A.hasNetclass('50ohm single')")
 	(constraint track_width (opt 0.1425mm))
+	(constraint clearance (min 0.1mm))
+)
+
+(rule "50ohm single inner"
+	(layer inner)
+	(condition "(A.hasNetclass('50ohm single') && B.hasNetclass('50ohm single')) && !(A.enclosedByArea('DDR3_BGA') || A.enclosedByArea('FPGA BGA'))")
 	(constraint clearance (min 0.4275mm))
 )
+
+
 (rule "100ohm diff outer"
 	(layer outer)
 	(condition "A.hasNetclass('100 ohm diff')")
 	(constraint track_width (min 0.120mm) (opt 0.1232mm) (max 0.125mm))
-	(constraint diff_pair_gap (min 0.2mm) (opt 0.2mm) (max 0.2mm))
+	(constraint diff_pair_gap (min 0.1mm) (opt 0.2mm) (max 0.3mm))
 	(constraint clearance (min 0.1mm) (opt 0.1mm) (max 0.1mm))
 )
 
@@ -50,7 +58,7 @@
 	(constraint skew (max 25mil))
 )
 
-(rule "ddr3 bga clearance"
-	(condition "A.enclosedByArea('DDR3_BGA')")
-	(constraint clearance (min 0.1mm))
+(rule "bga clearance"
+	(condition "A.enclosedByArea('DDR3_BGA') || A.enclosedByArea('FPGA BGA')")
+	(constraint clearance (min 0.1mm) (opt 0.1mm))
 )
