@@ -14,9 +14,9 @@
 	(constraint clearance (min 0.1mm))
 )
 
-(rule "50ohm single inner"
+(rule "50ohm single clearance"
 	(layer inner)
-	(condition "(A.hasNetclass('50ohm single') && B.hasNetclass('50ohm single')) && !(A.enclosedByArea('DDR3_BGA') || A.enclosedByArea('FPGA BGA'))")
+	(condition "A.hasNetclass('50ohm single') && B.hasNetclass('50ohm single')")
 	(constraint clearance (min 0.4275mm))
 )
 
@@ -59,6 +59,6 @@
 )
 
 (rule "bga clearance"
-	(condition "A.enclosedByArea('DDR3_BGA') || A.enclosedByArea('FPGA BGA')")
-	(constraint clearance (min 0.1mm) (opt 0.1mm))
+	(condition "A.intersectsArea('FPGA BGA')")
+	(constraint clearance (min 0.1mm) (opt 0.1mm) (max 0.1mm))
 )

@@ -74,7 +74,6 @@
       "unconnected-(U6A-VCCO_15-PadG18)",
       "unconnected-(U6A-VCCO_15-PadB13)",
       "unconnected-(U6A-IO_L16P_T2_A28_15-PadC16)",
-      "/DDR3/DDR_VREF",
       "unconnected-(U6E-M1_0-PadR11)",
       "unconnected-(U6A-IO_L19P_T3_A22_15-PadG17)",
       "/Frontend Connector/DI.DI1+",
@@ -447,10 +446,10 @@
       "keepouts": true,
       "lockedItems": false,
       "otherItems": false,
-      "pads": true,
+      "pads": false,
       "text": false,
       "tracks": true,
-      "vias": true,
+      "vias": false,
       "zones": false
     },
     "visible_items": [
@@ -474,7 +473,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffdf777_ff7f51c5",
+    "visible_layers": "00000000_00000000_0ffdf777_ff7f51c4",
     "zone_display_mode": 0
   },
   "git": {
