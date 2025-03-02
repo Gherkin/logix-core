@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 10,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -12,6 +12,7 @@
       "DDR3_DQ"
     ],
     "hidden_nets": [
+      "GND",
       "/DDR3_CAS#",
       "/DDR3_UDQS-",
       "/DDR3_RESET#",
@@ -45,7 +46,7 @@
       "dimensions": false,
       "footprints": false,
       "graphics": false,
-      "keepouts": true,
+      "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
@@ -75,7 +76,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffdf777_ff7f51c4",
+    "visible_layers": "00000000_00000000_0ffdf777_ff7f5081",
     "zone_display_mode": 0
   },
   "git": {

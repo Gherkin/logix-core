@@ -567,7 +567,16 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+V1P0": "rgb(137, 131, 39)",
+      "+V1P2": "rgb(255, 142, 20)",
+      "+V1P8": "rgb(255, 182, 139)",
+      "/FPGA/FPGA pg.1/VCCO14": "rgb(26, 2, 255)",
+      "/FPGA/FPGA pg.1/VCCO15": "rgb(66, 245, 185)",
+      "/FPGA/FPGA pg.2/VCCO34": "rgb(103, 124, 255)",
+      "/FPGA/FPGA pg.4/VCCINT": "rgb(255, 56, 190)",
+      "VCCINT": "rgb(255, 14, 158)"
+    },
     "netclass_assignments": {
       "/DDR3_ADDR0": [
         "DDR3_ADDR"
