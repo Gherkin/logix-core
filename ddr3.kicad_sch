@@ -7690,7 +7690,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 82.55 116.84) (xy 82.55 129.54) (xy 87.63 129.54) (xy 87.63 116.84)
+				(xy 137.16 45.72) (xy 137.16 67.31) (xy 144.78 67.31) (xy 144.78 45.72)
 			)
 			(stroke
 				(width 0)
@@ -7699,7 +7699,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 094886de-38d4-4843-a583-3c6d2995f7e5)
+			(uuid 01062436-ef58-4713-8436-5fef288bffc2)
 		)
 	)
 	(rule_area
@@ -7714,13 +7714,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 61b52d4f-7536-452d-acb2-944736418a14)
+			(uuid 46fb01e4-4e3e-42ec-ab83-66bfaefa47e4)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 137.16 45.72) (xy 137.16 67.31) (xy 144.78 67.31) (xy 144.78 45.72)
+				(xy 82.55 116.84) (xy 82.55 129.54) (xy 87.63 129.54) (xy 87.63 116.84)
 			)
 			(stroke
 				(width 0)
@@ -7729,7 +7729,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 8b618dba-fa23-4ff7-b9dc-bacd3bdf47ce)
+			(uuid 60db0421-2a01-44b2-a2ab-89b3a1b314ec)
 		)
 	)
 	(rule_area
@@ -7744,7 +7744,7 @@
 			(fill
 				(type none)
 			)
-			(uuid e5b653df-d935-4bf6-90f7-f62e8d8322ea)
+			(uuid fc339920-81e9-4297-bd4c-ce96bb836df0)
 		)
 	)
 	(netclass_flag ""
@@ -7801,6 +7801,68 @@
 		)
 		(property "Component Class" ""
 			(at -22.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 7.62)
+		(shape round)
+		(at 48.26 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d142d954-777d-4e17-9576-f4e9625a7d0f")
+		(property "Netclass" "50ohm single"
+			(at 48.9585 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -237.49 -101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 54.61 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2fe5cc1-f97b-491d-a030-ebc1fa389dcc")
+		(property "Netclass" "DDR3_ADDR"
+			(at 55.3085 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -231.14 -101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,12 +1,11 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
       "100 ohm diff",
       "50ohm single",
-      "DDR3_ADDR",
       "DDR3_BLOCK_ADDR",
       "DDR3_CLOCKS",
       "DDR3_CTRL",
@@ -15,27 +14,14 @@
     "hidden_nets": [
       "GND",
       "/DDR3_CAS#",
-      "/DDR3_ADDR10",
-      "/DDR3_ADDR8",
       "+1V5",
-      "/DDR3_ADDR5",
-      "/DDR3_ADDR14",
-      "/DDR3_ADDR11",
-      "/DDR3_ADDR0",
       "/DDR3_UDQS-",
       "/DDR3_RESET#",
-      "/DDR3_ADDR4",
-      "/DDR3_ADDR6",
-      "/DDR3_ADDR2",
-      "/DDR3_ADDR13",
       "/DDR3_BLOCK_ADDR1",
       "/DDR3_RAS#",
-      "/DDR3_ADDR7",
       "/DDR3_CLK_EN",
       "/DDR3_CS#",
       "/DDR3_LDQS+",
-      "/DDR3_ADDR3",
-      "/DDR3_ADDR1",
       "/DDR3_WE#",
       "/DDR3_CLK+",
       "/DDR3_CLK-",
@@ -43,11 +29,9 @@
       "/DDR3_ODT",
       "/DDR3_UDQS+",
       "/DDR3_BLOCK_ADDR2",
-      "/DDR3_ADDR9",
       "/DDR3_BLOCK_ADDR0",
       "/DDR3_LDM",
-      "/DDR3_UDM",
-      "/DDR3_ADDR12"
+      "/DDR3_UDM"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 2,
@@ -93,7 +77,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffdf777_ff7f51c5",
+    "visible_layers": "00000000_00000000_0ffdf777_ff7f51c0",
     "zone_display_mode": 0
   },
   "git": {

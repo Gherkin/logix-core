@@ -579,51 +579,75 @@
     },
     "netclass_assignments": {
       "/DDR3_ADDR0": [
-        "DDR3_ADDR"
+        "50ohm single",
+        "DDR3_ADDR",
+        "DDR3_ADDR_LO"
       ],
       "/DDR3_ADDR1": [
-        "DDR3_ADDR"
+        "50ohm single",
+        "DDR3_ADDR",
+        "DDR3_ADDR_LO"
       ],
       "/DDR3_ADDR10": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR11": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR12": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR13": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR14": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR2": [
-        "DDR3_ADDR"
+        "50ohm single",
+        "DDR3_ADDR",
+        "DDR3_ADDR_LO"
       ],
       "/DDR3_ADDR3": [
-        "DDR3_ADDR"
+        "50ohm single",
+        "DDR3_ADDR",
+        "DDR3_ADDR_LO"
       ],
       "/DDR3_ADDR4": [
-        "DDR3_ADDR"
+        "50ohm single",
+        "DDR3_ADDR",
+        "DDR3_ADDR_LO"
       ],
       "/DDR3_ADDR5": [
-        "DDR3_ADDR"
+        "50ohm single",
+        "DDR3_ADDR",
+        "DDR3_ADDR_LO"
       ],
       "/DDR3_ADDR6": [
-        "DDR3_ADDR"
+        "50ohm single",
+        "DDR3_ADDR",
+        "DDR3_ADDR_LO"
       ],
       "/DDR3_ADDR7": [
-        "DDR3_ADDR"
+        "50ohm single",
+        "DDR3_ADDR",
+        "DDR3_ADDR_LO"
       ],
       "/DDR3_ADDR8": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR9": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR[0..14]": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_BLOCK_ADDR0": [
