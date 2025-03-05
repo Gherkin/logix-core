@@ -523,25 +523,25 @@
       },
       {
         "name": "DDR3_ADDR",
-        "pcb_color": "rgb(132, 195, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_BLOCK_ADDR",
-        "pcb_color": "rgb(254, 255, 75)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_CLOCKS",
-        "pcb_color": "rgb(255, 100, 83)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_CTRL",
-        "pcb_color": "rgb(233, 164, 255)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
@@ -553,13 +553,13 @@
       },
       {
         "name": "DDR3_DQ_HI",
-        "pcb_color": "rgb(51, 119, 28)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_DQ_LO",
-        "pcb_color": "rgb(142, 255, 115)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
@@ -571,10 +571,22 @@
       "+V1P0": "rgb(137, 131, 39)",
       "+V1P2": "rgb(255, 142, 20)",
       "+V1P8": "rgb(255, 182, 139)",
+      "/FPGA/FPGA pg.1/VCCO13": "rgb(255, 106, 67)",
       "/FPGA/FPGA pg.1/VCCO14": "rgb(26, 2, 255)",
       "/FPGA/FPGA pg.1/VCCO15": "rgb(66, 245, 185)",
+      "/FPGA/FPGA pg.2/VCCO15": "rgb(109, 255, 160)",
+      "/FPGA/FPGA pg.2/VCCO16": "rgb(94, 255, 14)",
       "/FPGA/FPGA pg.2/VCCO34": "rgb(103, 124, 255)",
+      "/FPGA/FPGA pg.3/VCCO34": "rgb(212, 255, 130)",
+      "/FPGA/FPGA pg.3/VCCO35": "rgb(255, 158, 7)",
       "/FPGA/FPGA pg.4/VCCINT": "rgb(255, 56, 190)",
+      "/FPGA/FPGA pg.4/VCCO_0": "rgb(223, 82, 255)",
+      "/FPGA/FPGA pg.5/MGTAVCC": "rgb(180, 140, 255)",
+      "/FPGA/FPGA pg.5/MGTAVTT": "rgb(137, 195, 255)",
+      "/FPGA/FPGA pg.5/VCCADC": "rgb(85, 111, 255)",
+      "/FPGA/FPGA pg.5/VCCAUX": "rgb(255, 199, 125)",
+      "/FPGA/FPGA pg.5/VCCBRAM": "rgb(255, 236, 33)",
+      "/FPGA/FPGA pg.5/VCCINT": "rgb(255, 171, 222)",
       "VCCINT": "rgb(255, 14, 158)"
     },
     "netclass_assignments": {
