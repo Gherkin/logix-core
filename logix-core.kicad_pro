@@ -915,6 +915,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -979,6 +987,10 @@
     [
       "ab2b6d75-2b5d-47d9-b70e-fad58fb7011e",
       "DDR3"
+    ],
+    [
+      "1762c4d0-b952-4243-b8f2-7280611b0460",
+      "FPGA pg.5"
     ]
   ],
   "text_variables": {}

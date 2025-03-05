@@ -658,6 +658,48 @@
 		)
 	)
 	(sheet
+		(at 176.53 128.27)
+		(size 33.02 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1762c4d0-b952-4243-b8f2-7280611b0460")
+		(property "Sheetname" "FPGA pg.5"
+			(at 176.53 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga-pg5.kicad_sch"
+			(at 176.53 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/824409ff-e0aa-4944-ad80-228eadb659f9"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 58.42 62.23)
 		(size 33.02 69.85)
 		(exclude_from_sim no)
