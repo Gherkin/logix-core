@@ -452,7 +452,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 39ac372b-3e18-4881-892e-14e89dd79514)
+			(uuid 2f6b62c7-63de-493b-98b2-7d12e9fa5e68)
 		)
 	)
 	(rule_area
@@ -467,7 +467,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 4ffe0caf-2229-4d0f-af51-b25371895487)
+			(uuid ad6c78a1-a840-4d9d-b4d7-64cf40ea1a51)
 		)
 	)
 	(netclass_flag ""
@@ -900,6 +900,48 @@
 			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 38.1)
+		(size 39.37 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "725b4ae4-2ad7-4053-8b9f-be9bfed86aa7")
+		(property "Sheetname" "7-segment"
+			(at 152.4 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "7-segment.kicad_sch"
+			(at 152.4 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logix-core"
+				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23"
+					(page "15")
 				)
 			)
 		)

@@ -1003,6 +1003,10 @@
     [
       "1762c4d0-b952-4243-b8f2-7280611b0460",
       "FPGA pg.5"
+    ],
+    [
+      "725b4ae4-2ad7-4053-8b9f-be9bfed86aa7",
+      "7-segment"
     ]
   ],
   "text_variables": {}

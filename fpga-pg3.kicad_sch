@@ -9482,7 +9482,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 146.05) (xy 314.96 146.05)
+			(xy 270.51 142.24) (xy 255.27 142.24)
 		)
 		(stroke
 			(width 0)
@@ -10172,7 +10172,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 148.59) (xy 314.96 148.59)
+			(xy 270.51 144.78) (xy 255.27 144.78)
 		)
 		(stroke
 			(width 0)
@@ -10182,7 +10182,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 151.13) (xy 314.96 151.13)
+			(xy 270.51 147.32) (xy 255.27 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10542,7 +10542,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 161.29) (xy 295.91 161.29)
+			(xy 270.51 149.86) (xy 255.27 149.86)
 		)
 		(stroke
 			(width 0)
@@ -10761,12 +10761,12 @@
 		(uuid "13267076-89ee-473b-9335-23d583d042dc")
 	)
 	(label "DDR3_RAS#"
-		(at 299.72 146.05 0)
+		(at 270.51 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "19f4faa5-99ab-4635-b381-e2fc259fff64")
 	)
@@ -11111,12 +11111,12 @@
 		(uuid "874c5d47-da55-4174-ba42-2668825d0465")
 	)
 	(label "DDR3_WE#"
-		(at 299.72 151.13 0)
+		(at 270.51 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8f04db2e-b3a2-42e3-9a59-e5baa117f335")
 	)
@@ -11291,12 +11291,12 @@
 		(uuid "db8e02d7-9117-43cd-af2b-ceefa707e41c")
 	)
 	(label "DDR3_CAS#"
-		(at 299.72 148.59 0)
+		(at 270.51 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e203b1c9-4399-4127-9012-a84e9c468e6a")
 	)
@@ -11331,7 +11331,7 @@
 		(uuid "ee954600-3b96-4cd5-a7f7-63ada36c9bed")
 	)
 	(label "DDR3_RESET#"
-		(at 311.15 161.29 180)
+		(at 270.51 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11404,7 +11404,7 @@
 	)
 	(hierarchical_label "DDR3_RESET#"
 		(shape bidirectional)
-		(at 311.15 161.29 0)
+		(at 270.51 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11415,12 +11415,12 @@
 	)
 	(hierarchical_label "DDR3_WE#"
 		(shape bidirectional)
-		(at 299.72 151.13 180)
+		(at 270.51 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1aee012d-0fc7-4092-82db-98f6da96c32b")
 	)
@@ -11448,23 +11448,23 @@
 	)
 	(hierarchical_label "DDR3_CAS#"
 		(shape bidirectional)
-		(at 299.72 148.59 180)
+		(at 270.51 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "38068df2-f0d2-49b6-9dc0-070075530050")
 	)
 	(hierarchical_label "DDR3_RAS#"
 		(shape bidirectional)
-		(at 299.72 146.05 180)
+		(at 270.51 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3aebc565-ab2e-43ad-9775-92561a40f4f5")
 	)
