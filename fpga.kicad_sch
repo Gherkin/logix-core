@@ -195,6 +195,16 @@
 		)
 		(uuid "a2773d67-df53-4a0c-ae85-3613bc5b46b7")
 	)
+	(bus
+		(pts
+			(xy 119.38 231.14) (xy 152.4 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c0525c-38ea-42c5-aa95-2eb8e862824e")
+	)
 	(wire
 		(pts
 			(xy 59.69 222.25) (xy 85.09 222.25)
@@ -364,6 +374,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b9c6e60-bdca-41a1-a9be-1614b62400d8")
+	)
+	(label "FLASH_SPI{D0 D1 D2 D3 CS#}"
+		(at 119.38 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52e6902b-bb09-4c12-b795-db71527098fe")
 	)
 	(label "BTN1#"
 		(at 95.25 91.44 0)
@@ -936,6 +956,17 @@
 		)
 		(uuid "dc67b124-9636-4415-93f5-4542b6a9fe64")
 	)
+	(hierarchical_label "FLASH_SPI"
+		(shape bidirectional)
+		(at 152.4 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd01bba8-b07a-4169-a5f1-81b27ad73b94")
+	)
 	(hierarchical_label "FRONT_I2C"
 		(shape bidirectional)
 		(at 152.4 34.29 0)
@@ -1190,7 +1221,7 @@
 	)
 	(sheet
 		(at 85.09 166.37)
-		(size 33.655 67.945)
+		(size 34.29 68.58)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1214,7 +1245,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga-pg3.kicad_sch"
-			(at 85.09 234.8996 0)
+			(at 85.09 235.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1434,7 @@
 			)
 		)
 		(pin "FLASH_SPI" bidirectional
-			(at 118.745 231.14 0)
+			(at 119.38 231.14 0)
 			(uuid "05485d9d-7da8-4423-8e49-74936f0eeab1")
 			(effects
 				(font
