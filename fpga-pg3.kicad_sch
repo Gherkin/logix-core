@@ -11643,6 +11643,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 87.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "91a5c576-f2da-4db7-925e-5df8fddb19ae")
 		)
@@ -11711,6 +11719,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C47339"
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11783,6 +11799,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47339"
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eebdc84e-9236-4895-b050-dd8ec2e51413")
 		)
@@ -11823,7 +11847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at -85.09 97.028 90)
 			(effects
 				(font
@@ -11850,7 +11874,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C17168"
 			(at -85.09 95.25 0)
 			(effects
 				(font
@@ -11899,7 +11923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at -85.09 71.628 90)
 			(effects
 				(font
@@ -11926,7 +11950,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C17168"
 			(at -85.09 69.85 0)
 			(effects
 				(font
@@ -11975,7 +11999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at -85.09 76.708 90)
 			(effects
 				(font
@@ -12002,7 +12026,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C17168"
 			(at -85.09 74.93 0)
 			(effects
 				(font
@@ -12051,7 +12075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at -85.09 79.248 90)
 			(effects
 				(font
@@ -12078,7 +12102,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C17168"
 			(at -85.09 77.47 0)
 			(effects
 				(font
@@ -12157,6 +12181,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47339"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "876c00e7-278f-4577-a8a9-62d3c2a0fcdd")
 		)
@@ -12225,6 +12257,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C47339"
+			(at 138.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12364,6 +12404,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 321.31 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "11556d7a-7454-4cb0-8cd9-12c64c487a08")
 		)
@@ -12433,6 +12481,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C47339"
+			(at 295.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12572,6 +12628,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47339"
+			(at 270.51 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "55e62e74-4603-418f-a48c-11d32e31903a")
 		)
@@ -12616,7 +12680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 333.0448 57.15 0)
 			(effects
 				(font
@@ -12641,6 +12705,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C96123"
+			(at 334.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12713,6 +12785,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 100.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "04352fa9-8229-4154-8377-c159bfc215da")
 		)
@@ -12778,6 +12858,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1521727"
+			(at 204.47 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "J17"
@@ -14192,6 +14280,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 308.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e4f9a279-0808-4657-83b2-4e25f8a3a0a6")
 		)
@@ -14261,6 +14357,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C47339"
+			(at 257.81 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14334,6 +14438,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47339"
+			(at 283.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f2d75a0-7a56-4a6d-b7f5-3d6dc361910f")
 		)
@@ -14377,7 +14489,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 75.8952 57.15 0)
 			(effects
 				(font
@@ -14402,6 +14514,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C96123"
+			(at 74.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14444,7 +14564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at -85.09 74.168 90)
 			(effects
 				(font
@@ -14471,7 +14591,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C17168"
 			(at -85.09 72.39 0)
 			(effects
 				(font

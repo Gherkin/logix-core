@@ -1,14 +1,15 @@
 {
   "board": {
-    "active_layer": 5,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
+      "100 ohm diff",
       "50ohm single",
       "DDR3_ADDR",
       "DDR3_BLOCK_ADDR",
-      "DDR3_CLOCKS",
       "DDR3_CTRL",
+      "DDR3_DQ",
       "DDR3_DQ_HI",
       "DDR3_DQ_LO"
     ],
@@ -29,7 +30,6 @@
       "/DDR3_ADDR0",
       "/DDR3_DQ10",
       "/DDR3_DQ0",
-      "/DDR3_UDQS-",
       "/DDR3_RESET#",
       "/DDR3_ADDR4",
       "/DDR3_ADDR6",
@@ -45,16 +45,11 @@
       "/DDR3_DQ8",
       "/DDR3_CS#",
       "/DDR3_DQ1",
-      "/DDR3_LDQS+",
       "/DDR3_ADDR3",
       "/DDR3_ADDR1",
       "/DDR3_WE#",
       "/DDR3_DQ12",
-      "/DDR3_CLK+",
-      "/DDR3_CLK-",
-      "/DDR3_LDQS-",
       "/DDR3_ODT",
-      "/DDR3_UDQS+",
       "/DDR3_BLOCK_ADDR2",
       "/DDR3_DQ9",
       "/DDR3_ADDR9",
@@ -76,15 +71,15 @@
     },
     "selection_filter": {
       "dimensions": false,
-      "footprints": true,
+      "footprints": false,
       "graphics": false,
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
       "text": false,
-      "tracks": false,
-      "vias": false,
+      "tracks": true,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
@@ -108,7 +103,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffdf777_ff7f51e5",
+    "visible_layers": "00000000_00000000_0ffdf777_ff7f55f5",
     "zone_display_mode": 0
   },
   "git": {
@@ -174,7 +169,7 @@
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "DDR3_DQ_LO",
+    "filter_text": "DDR3_ADDR1",
     "group_by_constraint": false,
     "group_by_netclass": false,
     "show_unconnected_nets": false,

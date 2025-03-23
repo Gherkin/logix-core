@@ -9525,6 +9525,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1521727"
+			(at 209.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "J17"
 			(uuid "6b758bfc-1d9a-4cb9-a95f-0ea3d4586689")
 		)
@@ -10909,7 +10917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 225.7552 44.45 0)
 			(effects
 				(font
@@ -10934,6 +10942,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C96123"
+			(at 224.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10977,7 +10993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 281.94 85.598 90)
 			(effects
 				(font
@@ -11004,7 +11020,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C17168"
 			(at 281.94 83.82 0)
 			(effects
 				(font
@@ -11080,6 +11096,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1521727"
+			(at 209.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "J17"

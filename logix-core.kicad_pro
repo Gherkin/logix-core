@@ -193,7 +193,9 @@
       ],
       "track_widths": [
         0.0,
-        0.1
+        0.0,
+        0.1,
+        0.25
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -523,7 +525,7 @@
       },
       {
         "name": "DDR3_ADDR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(171, 255, 113)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
@@ -535,7 +537,7 @@
       },
       {
         "name": "DDR3_CLOCKS",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 111, 231)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
@@ -553,7 +555,7 @@
       },
       {
         "name": "DDR3_DQ_HI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(153, 165, 255)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
@@ -890,12 +892,72 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SuppliersPartNumber",
+          "name": "SuppliersPartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "uuid",
+          "name": "uuid",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

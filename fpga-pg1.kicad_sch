@@ -10969,6 +10969,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d211d8a4-d381-4a47-b754-e88d4df4b082")
 		)
@@ -11040,6 +11048,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47339"
+			(at 254 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "36c8748b-f9cd-42dd-809b-c8797ba943f6")
 		)
@@ -11108,6 +11124,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 317.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11181,6 +11205,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47339"
+			(at 292.1 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e3cc99f0-8a98-4137-857a-f79326ac7c02")
 		)
@@ -11249,6 +11281,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C47339"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11388,6 +11428,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47339"
+			(at 135.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9f7fc48c-4193-4ccd-84a8-0c9ede00c055")
 		)
@@ -11431,7 +11479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 73.3552 66.04 0)
 			(effects
 				(font
@@ -11456,6 +11504,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C96123"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11528,6 +11584,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47339"
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "66cb878c-d5a1-4a37-9b3c-28267e5d01a6")
 		)
@@ -11597,6 +11661,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C47339"
+			(at 266.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11735,6 +11807,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d2a20bee-5ac9-40d8-99f6-be6a90e604d1")
 		)
@@ -11806,6 +11886,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 304.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "00043ab3-9f1e-4812-abbf-95cedda576c8")
 		)
@@ -11873,6 +11961,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1521727"
+			(at 201.93 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "J17"
@@ -13286,6 +13382,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C47339"
+			(at 123.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "01d23618-c9ef-4009-8ae3-7549babbc91e")
 		)
@@ -13329,7 +13433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 331.1652 66.04 0)
 			(effects
 				(font
@@ -13354,6 +13458,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C96123"
+			(at 330.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13425,6 +13537,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C47339"
+			(at 279.4 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

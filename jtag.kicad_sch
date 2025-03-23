@@ -1755,6 +1755,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C492354"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60ad2eed-2c17-4f9c-9671-8ec1cc74a68f")
 		)

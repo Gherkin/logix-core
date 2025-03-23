@@ -2325,6 +2325,16 @@
 		)
 		(uuid "6c404b83-822a-46e9-9347-872da8138b02")
 	)
+	(text "TODO: add jumper for VBUS power"
+		(exclude_from_sim no)
+		(at 177.038 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7bf9e76-2493-4f0a-a37d-6cc62b0d6b87")
+	)
 	(text "TODO: connect reset"
 		(exclude_from_sim no)
 		(at 144.272 123.698 0)
@@ -3549,6 +3559,16 @@
 		)
 		(uuid "e0798d5e-3468-4b7a-ad2f-5849eb65d889")
 	)
+	(label "EXT_VBUS"
+		(at 62.23 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb3fab51-6053-45f0-a5b6-2090fb9b1fb5")
+	)
 	(label "FTDI_TXD"
 		(at 190.5 93.98 0)
 		(effects
@@ -3605,7 +3625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 209.55 98.298 90)
 			(effects
 				(font
@@ -3632,7 +3652,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C17168"
 			(at 209.55 96.52 0)
 			(effects
 				(font
@@ -3777,6 +3797,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cd038716-e588-4bbc-adab-988bdfa6dd34")
 		)
@@ -3799,7 +3827,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1ff63135-56ea-4c71-9616-904da8a902f5")
 		(property "Reference" "TP63"
@@ -3953,7 +3981,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 150.368 118.11 90)
 			(effects
 				(font
@@ -3980,7 +4008,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C25076"
 			(at 148.59 118.11 0)
 			(effects
 				(font
@@ -4125,6 +4153,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b4ed30de-c39b-4620-a8be-c98140d5a4c9")
 		)
@@ -4168,7 +4204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 243.078 121.92 90)
 			(effects
 				(font
@@ -4195,7 +4231,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C25076"
 			(at 241.3 121.92 0)
 			(effects
 				(font
@@ -4226,7 +4262,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5a4060ad-df80-4b4e-95d3-354018cad67d")
 		(property "Reference" "TP64"
@@ -4342,6 +4378,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2297"
+			(at 257.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "09552c92-24c0-4420-8b5d-cf2bf59d8a07")
 		)
@@ -4364,7 +4408,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "77da3761-0375-4ee7-89e6-f0b5db904f02")
 		(property "Reference" "TP61"
@@ -4478,6 +4522,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4624,6 +4676,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2927008"
+			(at 46.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "b75f6ec7-f94f-4d1b-b5f8-2f582e87424a")
 		)
@@ -4751,7 +4811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 209.55 103.378 90)
 			(effects
 				(font
@@ -4778,7 +4838,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C17168"
 			(at 209.55 101.6 0)
 			(effects
 				(font
@@ -4827,7 +4887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 105.918 90)
 			(effects
 				(font
@@ -4933,6 +4993,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2297"
+			(at 241.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a63b6cfb-a304-4e81-8e93-75ae3b750bc3")
 		)
@@ -5003,6 +5071,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1567"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5ece2355-945e-45bc-9f02-0cd7ebfa4184")
 		)
@@ -5046,7 +5122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 259.588 121.92 90)
 			(effects
 				(font
@@ -5073,7 +5149,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C25076"
 			(at 257.81 121.92 0)
 			(effects
 				(font
@@ -5170,7 +5246,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "acebbbe9-0959-4627-89f9-e1e936889ea9")
 		(property "Reference" "TP59"
 			(at 119.38 57.6579 0)
@@ -5303,7 +5379,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ae2d060e-0a3d-4737-b5b6-86fb4d572747")
 		(property "Reference" "TP65"
@@ -5485,6 +5561,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1567"
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f28f315a-6a34-4d59-92af-81e2ece11a87")
 		)
@@ -5507,7 +5591,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bf99116a-ae7d-47ce-8ade-bbfcadcab2ae")
 		(property "Reference" "TP60"
 			(at 88.9 95.7579 0)
@@ -5574,7 +5658,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c96e9012-03e9-4df6-bf6a-a38df7ff4653")
 		(property "Reference" "TP66"
@@ -5660,7 +5744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 209.55 95.758 90)
 			(effects
 				(font
@@ -5687,7 +5771,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C17168"
 			(at 209.55 93.98 0)
 			(effects
 				(font
@@ -5975,6 +6059,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 187.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5430b1d9-71fb-4d62-a21a-96e236f14488")
 		)
@@ -6043,6 +6135,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C128629"
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "8"
@@ -6262,7 +6362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 209.55 100.838 90)
 			(effects
 				(font
@@ -6289,7 +6389,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C226391"
+		(property "LCSC" "C17168"
 			(at 209.55 99.06 0)
 			(effects
 				(font
@@ -6339,7 +6439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.73 103.378 90)
 			(effects
 				(font
@@ -6397,7 +6497,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eb666eda-3717-4d36-b931-7c5b4f9a23b6")
 		(property "Reference" "TP67"
@@ -6555,7 +6655,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "edb6dfb9-ff6e-4c15-a4f6-24fd81cdf59d")
 		(property "Reference" "TP62"
