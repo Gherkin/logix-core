@@ -1700,7 +1700,7 @@
 	)
 	(symbol
 		(lib_id "878321420:878321420")
-		(at 144.78 77.47 0)
+		(at 144.78 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1709,7 +1709,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d4dc687-9a47-4b56-8337-104cd96cdaf8")
 		(property "Reference" "J3"
-			(at 158.75 92.7099 0)
+			(at 158.75 91.4399 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1718,7 +1718,7 @@
 			)
 		)
 		(property "Value" "878321420"
-			(at 158.75 95.2499 0)
+			(at 158.75 93.9799 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1727,7 +1727,7 @@
 			)
 		)
 		(property "Footprint" "878321420:CONN_87832-1420_MOL"
-			(at 144.78 77.47 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +1737,7 @@
 			)
 		)
 		(property "Datasheet" "878321420"
-			(at 144.78 77.47 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1747,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 77.47 0)
+			(at 144.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

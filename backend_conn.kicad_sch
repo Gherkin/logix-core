@@ -4203,7 +4203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06155369-56c8-4bab-8afb-ba5faa0687d3")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR016"
 			(at 207.01 134.62 0)
 			(effects
 				(font
@@ -4253,7 +4253,7 @@
 		(instances
 			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/8022af0a-9fc0-46cd-b8ad-ba9d73562043"
-					(reference "#PWR072")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4270,7 +4270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "192e8ac2-6e6e-4bd1-90a8-7bcec107a343")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR018"
 			(at 167.64 151.13 0)
 			(effects
 				(font
@@ -4320,7 +4320,7 @@
 		(instances
 			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/8022af0a-9fc0-46cd-b8ad-ba9d73562043"
-					(reference "#PWR064")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4336,7 +4336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "193b2548-2ef6-4878-a81b-e9f8bef35fba")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR017"
 			(at 137.16 151.13 0)
 			(effects
 				(font
@@ -4386,7 +4386,7 @@
 		(instances
 			(project ""
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/8022af0a-9fc0-46cd-b8ad-ba9d73562043"
-					(reference "#PWR063")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4402,7 +4402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21c015de-09ce-4317-bb11-0abc4f9e1238")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR013"
 			(at 113.03 120.65 0)
 			(effects
 				(font
@@ -4452,7 +4452,7 @@
 		(instances
 			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/8022af0a-9fc0-46cd-b8ad-ba9d73562043"
-					(reference "#PWR074")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4763,7 +4763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82fe3f18-1d02-40e4-a5ea-7a8d064bde14")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR014"
 			(at 106.68 123.19 0)
 			(effects
 				(font
@@ -4813,7 +4813,7 @@
 		(instances
 			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/8022af0a-9fc0-46cd-b8ad-ba9d73562043"
-					(reference "#PWR073")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4829,7 +4829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d85b305b-6fb0-49c8-a6cd-dffea6db941a")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR015"
 			(at 199.39 129.54 0)
 			(effects
 				(font
@@ -4879,7 +4879,7 @@
 		(instances
 			(project "logix-core"
 				(path "/cf3b7c5f-6ddc-4e3f-9529-0bcf5eec6f23/8022af0a-9fc0-46cd-b8ad-ba9d73562043"
-					(reference "#PWR075")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

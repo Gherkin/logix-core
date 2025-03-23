@@ -1006,7 +1006,19 @@
     ],
     [
       "725b4ae4-2ad7-4053-8b9f-be9bfed86aa7",
-      "7-segment"
+      "7SEG1"
+    ],
+    [
+      "870d8179-53a2-45e9-acdd-3a6b030eb928",
+      "7SEG2"
+    ],
+    [
+      "dc23ece7-e6a7-4aa2-83a4-336d598e5ea4",
+      "7SEG3"
+    ],
+    [
+      "d4a9ac74-cfb2-47b3-82fb-bdfff8a99b39",
+      "DIP_SWITCH"
     ]
   ],
   "text_variables": {}
