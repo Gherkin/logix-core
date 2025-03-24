@@ -561,7 +561,7 @@
       },
       {
         "name": "DDR3_DQ_LO",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(153, 115, 255)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
