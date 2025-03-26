@@ -59,6 +59,6 @@
 )
 
 (rule "bga clearance"
-	(condition "A.intersectsCourtyard('U6') || A.intersectsCourtyard('U8')")
+	(condition "A.intersectsCourtyard('U6') || A.intersectsCourtyard('U1')")
 	(constraint clearance (min 0.1mm))
 )

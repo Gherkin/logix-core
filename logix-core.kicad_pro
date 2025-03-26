@@ -193,7 +193,9 @@
       ],
       "track_widths": [
         0.0,
-        0.1
+        0.0,
+        0.1,
+        0.25
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -509,7 +511,7 @@
         "microvia_drill": 10.0,
         "name": "100 ohm diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 10.0,
         "via_diameter": 10.0,
@@ -518,49 +520,61 @@
       {
         "name": "50ohm single",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "DDR3_ADDR",
-        "pcb_color": "rgb(132, 195, 255)",
-        "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "DDR3_BLOCK_ADDR",
-        "pcb_color": "rgb(254, 255, 75)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "DDR3_CLOCKS",
-        "pcb_color": "rgb(255, 100, 83)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
+        "name": "DDR3_ADDR",
+        "pcb_color": "rgb(171, 255, 113)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR3_BLOCK_ADDR",
+        "pcb_color": "rgb(255, 64, 69)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR3_CLOCKS",
+        "pcb_color": "rgb(255, 111, 231)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR3_CMD",
+        "pcb_color": "rgb(91, 92, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "DDR3_CTRL",
-        "pcb_color": "rgb(233, 164, 255)",
-        "priority": 3,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR3_DM",
+        "pcb_color": "rgb(255, 241, 73)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_DQ",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_DQ_HI",
-        "pcb_color": "rgb(51, 119, 28)",
-        "priority": 0,
+        "pcb_color": "rgb(153, 165, 255)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_DQ_LO",
-        "pcb_color": "rgb(142, 255, 115)",
-        "priority": 1,
+        "pcb_color": "rgb(153, 115, 255)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -571,22 +585,32 @@
       "+V1P0": "rgb(137, 131, 39)",
       "+V1P2": "rgb(255, 142, 20)",
       "+V1P8": "rgb(255, 182, 139)",
+      "/FPGA/FPGA pg.1/VCCO13": "rgb(255, 106, 67)",
       "/FPGA/FPGA pg.1/VCCO14": "rgb(26, 2, 255)",
       "/FPGA/FPGA pg.1/VCCO15": "rgb(66, 245, 185)",
+      "/FPGA/FPGA pg.2/VCCO15": "rgb(109, 255, 160)",
+      "/FPGA/FPGA pg.2/VCCO16": "rgb(94, 255, 14)",
       "/FPGA/FPGA pg.2/VCCO34": "rgb(103, 124, 255)",
+      "/FPGA/FPGA pg.3/VCCO34": "rgb(212, 255, 130)",
+      "/FPGA/FPGA pg.3/VCCO35": "rgb(255, 158, 7)",
       "/FPGA/FPGA pg.4/VCCINT": "rgb(255, 56, 190)",
+      "/FPGA/FPGA pg.4/VCCO_0": "rgb(223, 82, 255)",
+      "/FPGA/FPGA pg.5/MGTAVCC": "rgb(180, 140, 255)",
+      "/FPGA/FPGA pg.5/MGTAVTT": "rgb(137, 195, 255)",
+      "/FPGA/FPGA pg.5/VCCADC": "rgb(85, 111, 255)",
+      "/FPGA/FPGA pg.5/VCCAUX": "rgb(255, 199, 125)",
+      "/FPGA/FPGA pg.5/VCCBRAM": "rgb(255, 236, 33)",
+      "/FPGA/FPGA pg.5/VCCINT": "rgb(255, 171, 222)",
       "VCCINT": "rgb(255, 14, 158)"
     },
     "netclass_assignments": {
       "/DDR3_ADDR0": [
         "50ohm single",
-        "DDR3_ADDR",
-        "DDR3_ADDR_LO"
+        "DDR3_ADDR"
       ],
       "/DDR3_ADDR1": [
         "50ohm single",
-        "DDR3_ADDR",
-        "DDR3_ADDR_LO"
+        "DDR3_ADDR"
       ],
       "/DDR3_ADDR10": [
         "50ohm single",
@@ -610,33 +634,27 @@
       ],
       "/DDR3_ADDR2": [
         "50ohm single",
-        "DDR3_ADDR",
-        "DDR3_ADDR_LO"
+        "DDR3_ADDR"
       ],
       "/DDR3_ADDR3": [
         "50ohm single",
-        "DDR3_ADDR",
-        "DDR3_ADDR_LO"
+        "DDR3_ADDR"
       ],
       "/DDR3_ADDR4": [
         "50ohm single",
-        "DDR3_ADDR",
-        "DDR3_ADDR_LO"
+        "DDR3_ADDR"
       ],
       "/DDR3_ADDR5": [
         "50ohm single",
-        "DDR3_ADDR",
-        "DDR3_ADDR_LO"
+        "DDR3_ADDR"
       ],
       "/DDR3_ADDR6": [
         "50ohm single",
-        "DDR3_ADDR",
-        "DDR3_ADDR_LO"
+        "DDR3_ADDR"
       ],
       "/DDR3_ADDR7": [
         "50ohm single",
-        "DDR3_ADDR",
-        "DDR3_ADDR_LO"
+        "DDR3_ADDR"
       ],
       "/DDR3_ADDR8": [
         "50ohm single",
@@ -651,55 +669,72 @@
         "DDR3_ADDR"
       ],
       "/DDR3_BLOCK_ADDR0": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR1": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR10": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR11": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR12": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR13": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR14": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR2": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR3": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR4": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR5": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR6": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR7": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR8": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR9": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR[0..14]": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_CAS#": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_CMD"
       ],
       "/DDR3_CLK+": [
         "100 ohm diff",
@@ -710,10 +745,11 @@
         "DDR3_CLOCKS"
       ],
       "/DDR3_CLK_EN": [
-        "DDR3_CTRL"
+        "DDR3_DM"
       ],
       "/DDR3_CS#": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_CMD"
       ],
       "/DDR3_DQ0": [
         "50ohm single",
@@ -800,7 +836,8 @@
         "DDR3_DQ"
       ],
       "/DDR3_LDM": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_DM"
       ],
       "/DDR3_LDQS+": [
         "100 ohm diff",
@@ -811,16 +848,20 @@
         "DDR3_CLOCKS"
       ],
       "/DDR3_ODT": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_DM"
       ],
       "/DDR3_RAS#": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_CMD"
       ],
       "/DDR3_RESET#": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_CMD"
       ],
       "/DDR3_UDM": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_DM"
       ],
       "/DDR3_UDQS+": [
         "100 ohm diff",
@@ -831,7 +872,8 @@
         "DDR3_CLOCKS"
       ],
       "/DDR3_WE#": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_CMD"
       ]
     },
     "netclass_patterns": []
@@ -902,12 +944,72 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SuppliersPartNumber",
+          "name": "SuppliersPartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "uuid",
+          "name": "uuid",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -939,6 +1041,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -1003,6 +1113,26 @@
     [
       "ab2b6d75-2b5d-47d9-b70e-fad58fb7011e",
       "DDR3"
+    ],
+    [
+      "1762c4d0-b952-4243-b8f2-7280611b0460",
+      "FPGA pg.5"
+    ],
+    [
+      "725b4ae4-2ad7-4053-8b9f-be9bfed86aa7",
+      "7SEG1"
+    ],
+    [
+      "870d8179-53a2-45e9-acdd-3a6b030eb928",
+      "7SEG2"
+    ],
+    [
+      "dc23ece7-e6a7-4aa2-83a4-336d598e5ea4",
+      "7SEG3"
+    ],
+    [
+      "d4a9ac74-cfb2-47b3-82fb-bdfff8a99b39",
+      "DIP_SWITCH"
     ]
   ],
   "text_variables": {}
