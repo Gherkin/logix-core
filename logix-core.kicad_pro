@@ -511,7 +511,7 @@
         "microvia_drill": 10.0,
         "name": "100 ohm diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 10.0,
         "via_diameter": 10.0,
@@ -520,49 +520,61 @@
       {
         "name": "50ohm single",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_ADDR",
         "pcb_color": "rgb(171, 255, 113)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_BLOCK_ADDR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "pcb_color": "rgb(255, 64, 69)",
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_CLOCKS",
         "pcb_color": "rgb(255, 111, 231)",
-        "priority": 4,
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR3_CMD",
+        "pcb_color": "rgb(91, 92, 255)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_CTRL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR3_DM",
+        "pcb_color": "rgb(255, 241, 73)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_DQ",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_DQ_HI",
         "pcb_color": "rgb(153, 165, 255)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "DDR3_DQ_LO",
         "pcb_color": "rgb(153, 115, 255)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -593,103 +605,136 @@
     },
     "netclass_assignments": {
       "/DDR3_ADDR0": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR1": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR10": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR11": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR12": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR13": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR14": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR2": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR3": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR4": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR5": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR6": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR7": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR8": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR9": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_ADDR[0..14]": [
+        "50ohm single",
         "DDR3_ADDR"
       ],
       "/DDR3_BLOCK_ADDR0": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR1": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR10": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR11": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR12": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR13": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR14": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR2": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR3": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR4": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR5": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR6": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR7": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR8": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR9": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_BLOCK_ADDR[0..14]": [
+        "50ohm single",
         "DDR3_BLOCK_ADDR"
       ],
       "/DDR3_CAS#": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_CMD"
       ],
       "/DDR3_CLK+": [
         "100 ohm diff",
@@ -700,10 +745,11 @@
         "DDR3_CLOCKS"
       ],
       "/DDR3_CLK_EN": [
-        "DDR3_CTRL"
+        "DDR3_DM"
       ],
       "/DDR3_CS#": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_CMD"
       ],
       "/DDR3_DQ0": [
         "50ohm single",
@@ -790,7 +836,8 @@
         "DDR3_DQ"
       ],
       "/DDR3_LDM": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_DM"
       ],
       "/DDR3_LDQS+": [
         "100 ohm diff",
@@ -801,16 +848,20 @@
         "DDR3_CLOCKS"
       ],
       "/DDR3_ODT": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_DM"
       ],
       "/DDR3_RAS#": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_CMD"
       ],
       "/DDR3_RESET#": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_CMD"
       ],
       "/DDR3_UDM": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_DM"
       ],
       "/DDR3_UDQS+": [
         "100 ohm diff",
@@ -821,7 +872,8 @@
         "DDR3_CLOCKS"
       ],
       "/DDR3_WE#": [
-        "DDR3_CTRL"
+        "50ohm single",
+        "DDR3_CMD"
       ]
     },
     "netclass_patterns": []

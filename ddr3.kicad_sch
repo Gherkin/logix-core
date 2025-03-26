@@ -7699,7 +7699,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 5a9dee5c-ff5d-4855-a5d6-ef89a547e9c7)
+			(uuid 28e6fc8a-b787-42ba-a2cc-fd50578ffb26)
 		)
 	)
 	(rule_area
@@ -7714,22 +7714,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 62f66101-e343-4b4f-9ebf-556923c9abbf)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 82.55 116.84) (xy 82.55 129.54) (xy 87.63 129.54) (xy 87.63 116.84)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 7c9a5d64-166a-4f2f-8502-4284f9fa6ae1)
+			(uuid 5e2bf48b-b181-4f66-bc40-177491f79f24)
 		)
 	)
 	(rule_area
@@ -7744,7 +7729,161 @@
 			(fill
 				(type none)
 			)
-			(uuid f1265c9b-c1d7-46a0-93eb-0eeaf33ef017)
+			(uuid bbbf7ec5-db28-4573-ab2c-a98b423b3f1b)
+		)
+	)
+	(netclass_flag ""
+		(length 7)
+		(shape round)
+		(at 49.53 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0158785e-50c2-4734-803a-a431280f1ac2")
+		(property "Netclass" "50ohm single"
+			(at 50.2285 52.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -294.64 -67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 83.82 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dd3950e-0a4e-4216-91b7-4b511af0ee05")
+		(property "Netclass" "DDR3_DM"
+			(at 84.328 129.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 54.61 295.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 7)
+		(shape round)
+		(at 82.55 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e1d8efb-a7c6-418c-b323-cfc3dfb8e42a")
+		(property "Netclass" "50ohm single"
+			(at 83.2485 121.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -261.62 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 7)
+		(shape round)
+		(at 78.74 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3838eddc-65ec-43ae-bdfa-402822b65626")
+		(property "Netclass" "50ohm single"
+			(at 79.4385 118.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -265.43 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 7)
+		(shape round)
+		(at 82.55 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85a30b73-49f9-4616-827f-f48af45691d4")
+		(property "Netclass" "50ohm single"
+			(at 83.2485 116.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -261.62 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
 		)
 	)
 	(netclass_flag ""
@@ -7810,6 +7949,68 @@
 		)
 	)
 	(netclass_flag ""
+		(length 7)
+		(shape round)
+		(at 50.8 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd8953d4-9589-4981-98ea-e08af4f191b6")
+		(property "Netclass" "50ohm single"
+			(at 51.4985 93.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -293.37 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 7)
+		(shape round)
+		(at 86.36 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df7432ef-2fc4-43ed-86ed-d332e711c781")
+		(property "Netclass" "50ohm single"
+			(at 87.0585 38.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -257.81 -81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
 		(length 2.54)
 		(shape round)
 		(at 83.82 45.72 0)
@@ -7821,7 +8022,7 @@
 			(justify left bottom)
 		)
 		(uuid "e70c5ad5-477e-45ee-b311-6f93637a5bfa")
-		(property "Netclass" "DDR3_CTRL"
+		(property "Netclass" "DDR3_CMD"
 			(at 84.5185 43.18 0)
 			(effects
 				(font
@@ -7843,7 +8044,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 87.63 121.92 90)
+		(at 86.36 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7851,17 +8052,17 @@
 			(justify left bottom)
 		)
 		(uuid "eede7a64-97cc-4637-897f-bb9cff26a037")
-		(property "Netclass" "DDR3_CTRL"
-			(at 83.312 119.888 0)
+		(property "Netclass" "DDR3_DM"
+			(at 88.392 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Component Class" ""
-			(at -80.01 92.71 0)
+			(at 115.57 -44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
